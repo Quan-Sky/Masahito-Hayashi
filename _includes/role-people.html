@@ -1,0 +1,51 @@
+
+<!-- ass the chosen role in members.html role-tables to role-key -->
+{% assign role-key = include.role %}  
+
+<!-- site.roles is defined in _config.yml to list all possible roles -->
+<!-- if the role-key exists (in site.roles), then we print its name  -->
+{% for role in site.roles %}
+    {% if role.key == role-key %}
+
+        <!-- display the role's name -->
+        <h3 id={{role.key}} class="pt-3"> {{ role.name }}</h3> 
+        
+        <!-- display all researchers bearing this role -->
+        <!-- variable number_printed is used to control how many researchers will be
+                printed in a row. Currently, we set it to be 2 -->
+        {% assign number_printed = 0 %}
+
+        {% for item in site.data.people %}
+
+            {% assign even_odd = number_printed | modulo: 2 %}
+
+            {% assign person = item[1] %}
+            {% if person.role == role.key %}
+                
+                <!-- find a target researcher, we have to create a row div to display his information -->
+                {% if even_odd == 0 %}
+                    <div class="row">
+                {% endif %}
+                
+                <div class="col-md-6">    
+                    {% include person.html person=person image=include.image %}
+                </div>
+
+                <!-- one a researcher is found, we increase number_printed by 1 -->
+                {% assign number_printed = number_printed | plus: 1 %}
+
+                {% if even_odd == 1 %}
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        
+        <!-- it is possible that there is an odd number of researchers of this role,
+                in this case we have to close the last row div -->
+        {% assign even_odd = number_printed | modulo: 2 %}
+        {% if even_odd == 1 %}
+            </div>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+

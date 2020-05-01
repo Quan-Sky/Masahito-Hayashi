@@ -1,0 +1,50 @@
+---
+layout: default
+title: HOME
+notitle: true
+
+# groups of columns of {roles: list, width: num, image: bool}
+role-tables:
+- - roles: [faculty, postdoc, staff]
+    width: 4
+    image: true
+  - roles: [grad]
+    width: 8
+    image: true
+- - roles: [collab, ugrad, ugrad-alum]
+    width: 5
+    image: false
+  - roles: [alum]
+    width: 7
+    image: false
+
+---
+
+<div class="jumbotron">
+    <p>
+        Welcome to <b>Masahito Hayashi</b>'s reserach group.
+        Understanding the implications of recognizing matter and extracting information
+        from it has been a long-standing issue in philosophy and religion. However,
+        recently this problem has become relevant to other disciplines such as cognitive
+        science, psychology, and neuroscience. Indeed, this problem is directly relevant to
+        quantum mechanics, which forms the foundation of modern physics. In the process
+        of recognition, information cannot be obtained directly from matter without any
+        media. 
+    </p>
+</div>
+
+<section>
+    <h3><font size="+2">News</font></h3>
+    <ul class="news list-unstyled">
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </ul>
+    {% assign numposts = site.posts | size %}
+    {% if numposts >= 1 %}
+        <p>
+            <span class="fa fa-fw fa-history"></span>
+            <a href="{{ site.base }}/news.html">Older posts&hellip;</a>
+        </p>
+    {% endif %}
+</section>

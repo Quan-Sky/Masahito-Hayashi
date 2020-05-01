@@ -1,0 +1,7 @@
+{% assign research = include.research %}
+
+<h3> {{ research.title }} </h3>
+
+<div class="ml-3">
+{{ research.content | markdownify }}
+</div>

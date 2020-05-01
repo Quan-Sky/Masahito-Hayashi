@@ -1,0 +1,123 @@
+######################################################################################
+# ON HOW TO USE
+# each role has the following properties:
+#   display_name: the displayed name in the website -- necessary
+#   role: [pi, professor, postdoc, phd, master, undergraduate, collaborator, alumni, visitor] -- necessary
+#   webpage: -- optional
+#   bio: short biography -- optional
+#   image: personal image -- optional
+######################################################################################
+######################################################################################
+# PI
+######################################################################################
+
+pi-1:
+    display_name: "Masahito Hayashi"
+    webpage: "/about.html"
+    role: pi
+    image: "http://siqse.sustc.edu.cn/Uploads/banner/20200331/5e82fd7b20359.jpg"
+    bio: "Chief Research Scientist in SISQE"
+
+######################################################################################
+# PI
+######################################################################################
+
+# prof-1:
+#     display_name: "Masahito Hayashi"
+#     webpage: "/about.html"
+#     role: pi
+#     image: 
+#     bio: "Chief research scientist in SISQE"
+
+######################################################################################
+# Postdocs
+######################################################################################
+
+postdoc-1:
+    display_name: "Kun Wang"
+    role: postdoc
+    image: "http://siqse.sustc.edu.cn/Uploads/banner/20190925/5d8b1172efb46.png"
+    bio: "Quantum Shannon Theory"
+    webpage: "http://siqse.sustc.edu.cn/Index/staff_detail/mid/54/id/588"
+
+######################################################################################
+# PHD Students
+######################################################################################
+
+phd-1:
+    display_name: "Seunghoan Song"
+    role: phd
+
+phd-2:
+    display_name: "Yuuya Yoshida"
+    role: phd
+
+phd-3:
+    display_name: "Daiki Suruga"
+    role: phd
+
+######################################################################################
+# Master Students
+######################################################################################
+
+master-1:
+    display_name: "Hayato Arai"
+    role: master
+
+master-2:
+    display_name: "Ziyu Liu"
+    role: master
+
+######################################################################################
+# Visitors
+######################################################################################
+
+visitor-1:
+    display_name: "Ryuji Takaji"
+    role: visitor
+    bio: "3 Jan. 2020 - 14 Jan. 2020"
+
+visitor-2:
+    display_name: "Farzin Salek Shishavan"
+    role: visitor
+    bio: "26 Dec. 2019 - 24 Jan. 2020"
+
+visitor-3:
+    display_name: "Zahra Baghali Khanian"
+    role: visitor
+    bio: "26 Dec. 2019 - 24 Jan. 2020"
+
+######################################################################################
+# Alumni
+######################################################################################
+
+######################################################################################
+# Collaborators
+######################################################################################
+
+collab-1:
+    display_name: "Marco Tomamichel"
+    role: collaborator
+    webpage: "http://marcotom.info/"
+    image: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=t11U6_sAAAAJ&citpid=11"
+    bio: "National University of Singapore"
+
+collab-b:
+    display_name: "Ning Cai"
+    role: collaborator
+    webpage: "http://en.wikipedia.org/wiki/Professor_X"
+    bio: "ShanghaiTech University"
+    image: "http://sist.shanghaitech.edu.cn/_upload/article/images/dc/21/01a0cfaf4e3289fa52beded5d02f/21a481d1-5050-45f0-a2f6-c22bbe29531c.jpg"
+
+collab-c:
+    display_name: "Mario Berta"
+    role: collaborator
+    bio: "Imperial College London"
+    webpage: "https://marioberta.info/"
+    image: "https://marioberta.info/wp-content/uploads/2016/06/cropped-berta-e1466057834957.jpg"
+
+collab-d:
+    display_name: "Kun Fang"
+    role: collaborator
+    bio: "Postdoc at IQC, Waterloo"
+    webpage: "http://kunfang.info/"

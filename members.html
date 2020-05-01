@@ -1,0 +1,47 @@
+---
+layout: default
+title: Members
+notitle: true
+
+# groups of columns of {roles: list, image: bool}
+# the binary variable indicates if the imega will be shown or not
+
+role-tables:
+- - roles: [pi, professor, postdoc, phd, master, undergraduate, collaborator]
+    image: true
+- - roles: [visitor, alumni]
+    image: false
+---
+
+<!-- create a Navigator Bar for the list of researchers. We do it in the following way:
+    1. for each role in site.roles, we create a list item for it (except "pi")    
+    2. we use role.name's first letter in the menu. Thus "Master Students" becomes "Master"
+    3. we use role.key to indicate a hook
+    4. To make the hook function, we have to add an "id" property to each <h3> tag
+            listed in role-people.html. 
+    5. the "disabled" property is enabled to obtain a gray menu
+            References: https://getbootstrap.com/docs/4.4/components/navs/
+-->
+
+<ul class="nav justify-content-center navbar-expand-lg navbar-light" style="background-color: #e9ecef;"> 
+    {% for role in site.roles %}
+        {% if role.key != "pi" %}
+            {% assign word = role.name | split: ' ' | first %}
+            <li class="nav-item"><a class="nav-link disabled" href="#{{role.key}}">{{word}}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<div id="people">
+    {% for role-table in page.role-tables %}
+    <section class="people row justify-content-between">
+        {% for role-column in role-table %}
+        <div class="col-sm-12">
+            {% for role in role-column.roles %} 
+                {% include role-people.html role=role image=role-column.image %} 
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </section>
+    {% endfor %}
+</div>

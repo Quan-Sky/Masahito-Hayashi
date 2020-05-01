@@ -1,0 +1,31 @@
+---
+layout: default
+title: Publications
+notitle: true
+---
+
+<p>
+    A list of my publications is available on
+    <a href="https://scholar.google.com/citations?user=GGHbquQAAAAJ&hl=en&oi=ao">Google Scholar</a>.
+    
+    My publications can also be found on the 
+    <a href="https://arxiv.org/find/all/1/all:+AND+masahito+hayashi/0/1/0/all/0/1">arXiv</a>.
+<p>
+
+<!-- create a Navigator Bar for the list of publications.
+References: https://getbootstrap.com/docs/4.4/components/navs/
+-->
+
+<ul class="nav justify-content-center navbar-expand-lg navbar-light" style="background-color: #e9ecef;"> 
+    <li class="nav-item"><a class="nav-link disabled" href="#scholarly-books">Books</a></li>
+    <li class="nav-item"><a class="nav-link disabled" href="#refereed-journal-articles">Journals</a></li>
+    <li class="nav-item"><a class="nav-link disabled" href="#invited-introductory-articles">Introductory</a></li>
+    <li class="nav-item"><a class="nav-link disabled" href="#book-edition">Book Editions</a></li>
+    <li class="nav-item"><a class="nav-link disabled" href="#conference-proceedings">Conferences</a></li>
+    <li class="nav-item"><a class="nav-link disabled" 
+        href="#refereed-oral-presentation-without-proceeding">Presentations</a></li>
+    <li class="nav-item"><a class="nav-link disabled" href="#invited-talks">Invited Talks</a></li>
+</ul>
+
+{% include publication-list.html %}
+

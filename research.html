@@ -1,0 +1,21 @@
+---
+layout: default
+title: Research
+notitle: true
+---
+
+<!-- we iteratively handle all files under _research to parse research and project information -->
+{% for type in site.researchtypes %}
+    <section>
+    <h2>{{type.name}}</h2>
+
+    <!-- if current item belongs to the reseach type, we list it   -->
+    {% for item in site.researches %}  
+        {% if type.key == item.type %}
+            <ul class="list-unstyled">
+                {% include research-page.html research=item %}
+            </ul>
+        {% endif %}
+    {% endfor %}    
+    </section>
+{% endfor %}
