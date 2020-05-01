@@ -1,38 +1,24 @@
-Research Group Web Site Template
+Masahito Hayashi's Research Group
 ================================
 
-This is a [Jekyll][]-based Web site intended for research groups. Your group should be able to get up and running with minimal fuss.
-
-<p align="center">
-<img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
-</p>
-
-This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
-
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
-
-[sampa]: http://sampa.cs.washington.edu/
-[license]: https://creativecommons.org/licenses/by-nc/4.0/
+This is Masahito Hayashi's Research Group Website.
 
 
 Features
 --------
 
 * Thanks to [Jekyll][], content is just text files. So even faculty should be able to figure it out.
-* Publications list generated from BibTeX.
+* Publications list generated from Latex file using [pandoc](https://pandoc.org/).
 * Personnel list. Organize your professors, students, staff, and alumni.
 * Combined news stream and blog posts.
 * Easily extensible navigation bar.
-* Responsive (mobile-ready) design based on [Bootstrap][].
-
-[Bootstrap]: http://getbootstrap.com/
-
+* Responsive (mobile-ready) design based on [Bootstrap](http://getbootstrap.com/).
 
 Setup
 -----
 
-1. Install the dependencies. You will need [Python][], [bibble][] (`pip install bibble`), and [Jekyll][] (`gem install jekyll`).
-2. [Fork][] this repository on GitHub.
+1. Install the dependencies. You will need [Python][https://www.python.org/], [Jekyll](https://jekyllrb.com/) (`gem install jekyll`), and [pandoc](https://pandoc.org/).
+2. [Fork](https://github.com/uwsampa/research-group-web/fork) the **Research Group Website repository** on GitHub.
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
@@ -40,14 +26,10 @@ Setup
 7. Keep adding content. See below for instructions for each of the various sections.
 8. Periodically pull from the upstream repository: `git pull upstream master`.
 
-[Python]: https://www.python.org/
-[Fork]: https://github.com/uwsampa/research-group-web/fork
-
-
 Publication List
 ----------------
 
-The list of publications is in `bib/pubs.bib`. Typing `make` will generate `pubs.html`, which contains a pretty, sorted HTML-formatted list of papers. The public page, `publications.html`, also has a link to download the original BibTeX.
+The list of publications is in `data/hayashi-publication.tex`. Typing `make` will generate `_includes/publication-list.html`, which contains a pretty, sorted HTML-formatted list of papers. This task is done by [pandoc](https://pandoc.org/).
 
 
 News Items and Blog Posts
@@ -106,20 +88,15 @@ Building
 The requirements for building the site are:
 
 * [Jekyll][]: run `gem install jekyll`
-* [bibble][]: available on `pip`
-* ssh and rsync, only if you want to deploy directly.
 
 `make` compiles the bibliography and the website content to the `_site`
 directory. To preview the site, run `jekyll serve`` and head to
 http://0.0.0.0:5000.
 
+Remark
+--------
 
-Deploying to Your Sever
------------------------
+This website a [Jekyll][]-based website updated from a templated for [research groups](http://sampa.cs.washington.edu/). The Research Group project originated at the University of Washington.  You can see the machinery working live at [their site][sampa]. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
-To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
-
-To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub. Be aware that the Makefile is configured to have rsync delete stray files from the destination directory.
-
-[Jekyll]: http://jekyllrb.com/
-[bibble]: https://github.com/sampsyo/bibble/
+[sampa]: http://sampa.cs.washington.edu/
+[license]: https://creativecommons.org/licenses/by-nc/4.0/
