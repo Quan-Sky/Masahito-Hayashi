@@ -2,7 +2,7 @@ name: Masahito Hayashi's Research Group
 url: http://awesome.example.edu
 encoding: utf-8
 
-exclude: [pandoc, README.md, Makefile, vscode.code-workspace]
+exclude: [README.md, Makefile, CNAME]
 
 ### Conversions
 markdown: kramdown
