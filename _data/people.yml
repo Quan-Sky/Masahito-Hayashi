@@ -148,6 +148,13 @@ collab-g:
     bio: "Physics graduate student at Massachusetts Institute of Technology"
     webpage: "https://scholar.google.com/citations?user=UAe-79QAAAAJ&hl=en&oi=ao"
 
+collab-k:
+    display_name: "Ge Bai"
+    role: collaborator
+    bio: "Department of Computer Science, The University of Hong Kong"
+    webpage: "https://qift.weebly.com/ge-bai.html"
+    image: "https://qift.weebly.com/uploads/7/4/5/1/74515901/published/avatar.png?1563630714"
+
 collab-j:
     display_name: "Yu Yang"
     role: collaborator

@@ -39,50 +39,46 @@ promoted to **IEEE Fellow**.
 
 ### Representative Works
 
+**M. Hayashi**, [*Quantum Information Theory: Mathematical Foundation*](https://www.springer.com/gp/book/9783662497234), *Graduate Texts in Physics*, Springer (2017). (First Edition: M. Hayashi, Quantum Information: An Introduction, Springer (2006)).
+
+Assuming only elementary knowledge, this monograph explains many advanced topics in quantum information, quantum channel coding, quantum data compression, and quantum entanglement, etc., including original achievements.
+
 > **M. Hayashi**,  "Information spectrum approach to second-order coding rate in channel coding," [**IEEE Transactions on Information Theory**](https://ieeexplore.ieee.org/abstract/document/5290292/), Vol. 55, No. 11, 4947--4966 (2009). 
 
-This paper addresses the second order analysis of classical channel coding using the information spectrum method, and
-solves several *open problems that had been unsolved for 47 years*. It was awarded the [**2011 IEEE Information Theory
-Society Paper Award**](https://www.itsoc.org/honors/information-theory-paper-award), which is the most distinguished
-paper award in the information theory community. This award is granted to one or two of the most significant
-information theory papers worldwide by IEEE the Information Theory Society.
+Using the information-spectrum method, this paper established the systematic method for second order theory for the channel coding. Then, this paper resolved the second order coding rate for AWGN channel and channel coding with energy constraint *that had been unsolved for 47 years*. Although this problem was discussed by Polyanskiy, H. V. Poor, and S. Verdú (2010), this paper preceded them by one year. Due to the strength of this approach, many subsequent papers of the second order employ the proposed systematic method. Also, this paper clarifies the difference between the second order analysis and Gallager bound. Due to the above seminal contributions, this paper was awarded the [**2011 IEEE Information Theory
+Society Paper Award**](https://www.itsoc.org/honors/information-theory-paper-award).
 
 > **M. Hayashi** and H. Nagaoka, "General formulas for capacity of classical-quantum channels," [**IEEE Transactions on Information Theory**](https://ieeexplore.ieee.org/abstract/document/1207373/), Vol. 49, No. 7, 1753--1768 (2003).
 
-This paper studies the quantum channel coding using information spectrum method, a fundamental tool for
-finite-block-size analysis, and introduces a powerful inequality in quantum Shannon theory. An extremely useful
-byproduct of this paper is an operator inequality that is widely referred to as the *Hayashi-Nagaoka operator
-inequality* in literature.
+Non-commutativity causes several kinds of difficulties in quantum information theory. To overcome this problem, this paper derived a novel matrix inequality, which has often been referred to as the *Hayashi-Nagaoka inequality* in many papers for quantum information theory. This result brings us the quantum version of the information spectrum method. As another contribution, this paper revealed two useful relations between channel coding and the binary hypothesis testing. One is the relation between existence of a good channel code and the binary hypothesis testing. The other is the relation between the optimal performance of channel code and the binary hypothesis testing. Due to their generality, both relations were used to several papers of channel coding, including the paper for the second order rate of channel coding.
 
-> **M. Hayashi**, D. Markham, M. Murao, M. Owari, and S. Virmani, "Bounds on Multipartite Entangled Orthogonal State Discrimination Using Local Operations and Classical Communication," [Physical Review Letters](https://link.aps.org/doi/10.1103/PhysRevLett.96.040501), Vol. 96, 040501 (2006). 
+> M. Tomamichel and **M. Hayashi**, "A Hierarchy of Information Quantities for Finite Block Length Analysis of Quantum Tasks," *IEEE Transactions on Information Theory*, Vol. 59, No. 11, 7693 – 7710 (2013).
 
-This paper introduces a fundamental tool for local distinguishability of quantum states that has been applied in many
-papers. It also clarifies the relation between several entanglement quantities.
+This paper established the foundation of *finite-length theory* of quantum system. This paper also derived the second order analysis for secure key generation and data compression with side-information in the quantum setting.
 
-> **M. Hayashi**, "General non-asymptotic and asymptotic formulas in channel resolvability and identification capacity and its application to wire-tap channel," [IEEE Transactions on Information Theory](https://ieeexplore.ieee.org/document/1614083), Vol. 52, No. 4, 1562--1575 (2006). 
+> **M. Hayashi**, "General non-asymptotic and asymptotic formulas in channel resolvability and identification capacity and its application to wire-tap channel," *IEEE Transactions on Information Theory*, Vol. 52, No. 4, 1562-1575 (2006).
 
-This paper establishes a novel connection between channel resolvability and wiretap channel that yields tighter security
-evaluation, and solves an open problem concerning channel resolvability proposed by Han-Verd\'{u} in 1993.
+This paper pointed out the clear connection between the wire-tap channel coding and the channel resolvability. Using this connection, this paper derived an explicit exponent for leaked information by using Arimoto’s exponents. Also, combining the information spectrum approach, this paper revealed the capacity formula of general sequence of degraded wire-tap channels. Since this connection is a very powerful tool for wire-tap channel, many papers for wire-tap channel followed this idea to construct codes for wire-tap channel. Further, this paper proved the conjecture for resolvability capacities for general sequence of channel, which had been an open problem proposed by Han-Verdu in 1993 (13 years).
 
-> H. Nagaoka and **M. Hayashi**, "An information-spectrum approach to classical and quantum hypothesis testing for simple hypotheses," [IEEE Transactions on Information Theory](https://ieeexplore.ieee.org/document/4069150), Vol. 53, No. 2, 534--549 (2007).
+> **M. Hayashi**, "Exponential decreasing rate of leaked information in universal random privacy amplification," *IEEE Transactions on Information Theory*, Vol. 57, No. 6, 3989–4001 (2011).
 
-This paper establishes the quantum information spectrum to address quantum hypothesis testing, which is the most
-fundamental topic in quantum information and provides a basic tool for many related topics.
+This paper addresses security analysis when hash functions are applied. It applies hash function to wiretap channel, and constructs a practical code with small encoding and decoding time in finite-length setting. The proposed method can achieve the optimal asymptotic rate for secure key generation.
 
-> **M. Hayashi**, "Upper bounds of eavesdropper's performances in finite-length code with the decoy method," [Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.76.012329), Vol.76, 012329 (2007); [Physical Review A](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.79.019901), Vol.79, 019901(E) (2009).
+> **M. Hayashi**, K. Iwama, H. Nishimura, R. Raymond, and S. Yamashita, "Quantum Network Coding," *24th International Symposium on Theoretical Aspects of Computer Science (STACS 2007)*, Aachen, Germany; 22-24 February 2007.
 
-This paper derives the relation between phase error probability and leaked information and provides a formula for leaked
-information with imperfect photon source in quantum key distribution.
+The study for quantum network coding was studied by this paper. This paper proposed a non-trivial network code over quantum butterfly network.
 
-> **M. Hayashi**, "Second-order asymptotics in fixed-length source coding and intrinsic randomness," [IEEE Transactions on Information Theory](https://ieeexplore.ieee.org/document/4626060), Vol. 54, No. 10, 4619--4637 (2008). 
+> **M. Hayashi**, "Prior entanglement between senders enables perfect quantum network coding with modification," *Physical Review A*, Vol.76, 040301(R) (2007).
 
-This paper proposes the use of the information spectrum method for a unified approach for second order asymptotics,
-which has been applied in many papers as a key idea.
+This paper proposed a quantum network code on quantum butterfly network. The proposed protocol has been experimentally implemented by Prof. Pan's group in USTC.
 
-> **M. Hayashi**, "Exponential decreasing rate of leaked information in universal random privacy amplification," IEEE [Transactions on Information Theory](https://ieeexplore.ieee.org/document/5773033), Vol. 57, No. 6, 3989--4001 (2011).
+> Y. Yang, G. Chiribella, and **M. Hayashi**, "Attaining the Ultimate Precision Limit in Quantum State Estimation," *Communications in Mathematical Physics,* vol. 368(1), 223 – 293 (2019).
 
-This paper addresses security analysis when hash functions are applied. It applies hash function to wiretap channel, and
-constructs a practical code with small encoding and decoding time.
+This paper formalizes quantum state estimation with nuisance parameters. It clarifies the ultimate precision limit in quantum state estimation.
+
+> **M. Hayashi**, T. Morimae, "Verifiable measurement-only blind quantum computing with stabilizer testing," *Phys. Rev. Lett.,* vol. 115, 220502 (2015).
+
+This paper initialized the verification of measurement-based quantum computer.
 
 ### Contact
 
