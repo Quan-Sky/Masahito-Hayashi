@@ -128,238 +128,197 @@
             <ul class="list-unstyled">
                 
 
-<h3> Information Spectrum and Finite-block-size Analysis in Classical and Quantum Information </h3>
+<h3> Classical and Quantum Finite-length Information Theory </h3>
 
 <div class="ml-3">
-<p>Consider the problem of transmitting classical information via classical noisy channels as a typical problem in information theory. This problem is called classical channel coding, and it is possible to describe the optimal performance of channel coding in the asymptotic limit concerning the block-size of codes as Shannon’s channel-coding theorem, bur, in any real communication system, we can only use codes with finite block-size. Hence, it is necessary to estimate the optimal coding length $L_{\epsilon,n}$ among codes with block-size $n$ for a given allowable error probability $\epsilon&gt;0$. In fact, the traditional asymptotic analysis does not work for this problem for the following reason.
-In Shannon’s channel-coding theorem, the asymptotic limit $\lim_{n \to \infty} L_{\epsilon,n}/n$ is treated as the channel capacity. However, the limit does not give a good approximation of $L_{\epsilon,n}$ %with block-size $n$ and $\epsilon&gt;0$ because the convergence is quite slow.  The reason for the inadequacy of the convergence is that the limit value does not reflect the error probability $\epsilon$, not uniform with respect to $\epsilon$, which is caused by the independence of $\epsilon$. Therefore, a good approximation for $L_{\epsilon,n}$ is required.</p>
+<p>Traditionally, information theory has focused on the asymptotic behavior of codes with infinitely long block-length. Recently, many researchers became interested in the ultimate performance of finite-block-length code because nowadays it is possible to construct sufficiently long block length code in the channel coding. Hence, many people are interested in the second order analysis as the approximation of the finite-block length analysis. To resolve this problem, I established a systematic approach to second order analysis by combining the method of information spectrum and the central limit theorem. He applied this approach to the optimal second order coding rates for the source coding and the uniform random number generation. He also developed the second order universal coding theory for the source coding and the uniform random number generation.</p>
 
-<p>This problem becomes more serious in quantum communication because the quantum key distribution (QKD) system works only with finite-block-size codes. We cannot apply the result from the asymptotic theory directly to implemented QKD systems.</p>
+<p>Next, I tackled the second order coding rates for discrete memoryless (DMS) channel coding with energy constraint and the channel coding for additive white Gaussian noise (AWGN), <em>which had been unsolved for 47 years</em>. Due to the optimization of encoder, these problems cannot be solved by a simple application of the above approach. To resolve the difficulty, I revealed two notable relations between the channel coding and the binary hypothesis testing. Employing these relations, he derived the second order coding rates for these problems. Then, comparing the famous Gallager bound, he clarified the superiority of the second order analysis.</p>
 
-<p>To derive a better approximation, I considered the asymptotic expansion of $L_{\epsilon,n}$ up to the second order $\sqrt{n}$ as $L_{\epsilon,n}\cong L_1 n+ L_{2,\epsilon}\sqrt{n}$ because the second order coefficient $L_{2,\epsilon}$ properly reflects the error probability $\epsilon$, so that the difference between $L_{\epsilon,n}$ and $L_1 n+ L_{2,\epsilon}\sqrt{n}$ is not so large.
-Employing the information spectrum method, I derived the second order coefficient for 
-classical channel coding as well as other many kinds of settings
-which contain source coding, channel coding, and secure random number extraction 
-[IEEE TIT \textbf{54} 4619 (2008), \cite{Ha08b-1} of \textbf{C3}]. %41
-%Those results directly give the approximation of the optimal coding length with block-size $n$.
-Indeed, although the existing result could solve only the discrete memoryless case for channel coding, 
-my result applied to classical channel coding covers 
-the Gaussian channel case, the energy constraint case and the Markovian case 
-[IEEE TIT \textbf{55} 4947 (2009), \cite{Ha09b} of \textbf{C3}] %41
-as well as the discrete memoryless case. 
-The information spectrum method addresses only the logarithmic likelihood (ratio) for channels or sources, 
-and does not consider the other properties of channels or sources. 
-Since the analysis by this method is concentrated on the treatment of the logarithmic likelihood (ratio),
-the method provides a unified viewpoint on several topics in information theory.
-Thanks to the generality of the method, 
-I succeeded in calculating the second order coefficients of the above problems.
-%The simplicity of the derivation is clear because of the shortness of the total page lengths and the wideness of areas covered by two papers. 
-%In particular, 
-The paper [IEEE TIT \textbf{55} 4947 (2009), \cite{Ha09b} of \textbf{C3}] was awarded 
-the 
-\textbf{\textit{2011 IEEE Information Theory Society Paper Award}}.
-This award is presented to one or two of the most significant information theory papers worldwide by the IEEE Information Theory Society. 
-Papers awarded this prize are among the most significant and ground-breaking in their year.</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Information spectrum approach to second-order coding rate in channel coding,” <em>IEEE Transactions on Information Theory</em>, Vol. 55, No. 11, 4947–4966 (2009).</p>
+</blockquote>
 
-<p>Indeed, the topic itself concerns the classical case. 
-However, as mentioned in the first paragraph, the problem becomes more serious in the quantum case.
-To resolve this problem in the quantum case, I first solved this problem in the classical case.
-To address the quantum case,
-I established the information spectrum method in quantum systems 
-[IEEE TIT \textbf{49} 1753 (2003), \cite{HN03b} of \textbf{C3}] %113
-%IEEE TIT \textbf{52} 1562 (2006), %13
-%\&amp; IEEE TIT \textbf{53} 534 (2007)] %49
-%[\textbf{M. Hayashi}, {\em Quantum Information: An Introduction}, Springer (2006)] 194
-with Nagaoka.
-%In particular, 
-We derived a novel matrix inequality for this purpose, 
-which has often been referred to as the
-``Hayashi-Nagaoka inequality’’ in many papers for quantum channel coding.
-We then applied it to the quantum setting and solved the problem of the second order coefficients 
-in several quantum cases [QIP 2013, \cite{THc13-1} of \textbf{C2}].%4</p>
+<p>Using the information-spectrum method, this paper established the systematic method for second order theory for the channel coding. Then, this paper resolved the second order coding rate for AWGN channel and channel coding with energy constraint hat had been unsolved for 47 years. Although this problem was discussed by Polyanskiy, H. V. Poor, and S. Verdú (2010), this paper preceded them by one year. Due to the strength of this approach, many subsequent papers of the second order employ the proposed systematic method. Also, this paper clarifies the difference between the second order analysis and Gallager bound. Due to the above seminal contributions, this paper was awarded the 2011 IEEE Information Theory Society Paper Award.</p>
 
-<p>The next problem was to derive the upper and lower bounds of the optimal coding length with block-size $n$ 
-that attains the above optimal second order coefficient in the asymptotic sense. 
-We can easily derive such upper and lower bounds if we are not concerned about the complexity.
-However, the computability of bounds is required, as well as the tightness of bounds.
-The essential point is the trade-off between the approximation error and the complexity. 
-To clarify the trade-off, 
-we proposed several upper and lower bounds, and demonstrated their hierarchy. 
-%That is, more precise bound requires more calculation time.
-Employing the hierarchy, we clarified which bound is most 
-useful when the block-size $n$ is sufficiently large [QIP 2013, \cite{THc13-1} of \textbf{C2}].</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Second-order asymptotics in fixed-length source coding and intrinsic randomness,” <em>IEEE Transactions on Information Theory</em>, Vol, 54, No. 10, 4619–4637 (2008).</p>
+</blockquote>
 
-<p>According to Google Scholar, this research has been cited \textbf{\textit{455}} %41+41+113+13+49+194+4
- times since 2003.</p>
+<p>This paper proposes the use of the information spectrum method for a unified approach for second order asymptotics, which has been applied in many papers as a key idea.</p>
+
+<hr />
+
+<p>I also extended the above approach to the quantum setting. Firstly, I established the quantum version of the method of information spectrum for the binary hypothesis testing and the quantum data compression. Next, he extended it to the quantum channel coding, which has more serious difficulty due to the non-commutativity. To overcome it, I firstly invented a useful matrix inequality, which has often been referred to as the <em>Hayashi-Nagaoka inequality</em> in many papers for quantum information theory. Using this inequality, I established the relations between the quantum channel coding and the binary quantum hypothesis testing as the quantum version of the above notable relations. Based on these relations, I established the method of the information spectrum for the quantum channel coding, and derived its error exponent, which is the best among the currently known ones. I also constructed quantum universal channel coding by using the group representation theory instead of type method.</p>
+
+<p>Interestingly, this relation clarifies that the key point of second order analysis for quantum channel coding is the binary quantum hypothesis testing. The quantum difficulty for second order analysis is concentrated in the binary quantum hypothesis testing. Inventing the pinching technique, I made the second order analysis for the binary quantum hypothesis testing. Since the pinching technique is a powerful method to overcome the non-commutativity, this method has been often employed in several quantum paper recently. Applying this result, I derived the optimal second order coding rate for information reconciliation from quantum information, which derives the achievability of the optimal second order coding rate for the quantum channel coding.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong> and H. Nagaoka, “General formulas for capacity of classical-quantum channels,” <em>IEEE Transactions on Information Theory</em>, Vol.49, No.7, pp.1753-1768 (2003).</p>
+</blockquote>
+
+<p>Non-commutativity causes several kinds of difficulties in quantum information theory. To overcome this problem, this paper derived a novel matrix inequality, which has often been referred to as the Hayashi-Nagaoka inequality” in many papers for quantum information theory. This result brings us the quantum version of the information spectrum method. As another contribution, this paper revealed two useful relations between channel coding and the binary hypothesis testing. One is the relation between existence of a good channel code and the binary hypothesis testing. The other is the relation between the optimal performance of channel code and the binary hypothesis testing. Due to their generality, both relations were used to several papers of channel coding, including the paper for the second order rate of channel coding.</p>
+
+<blockquote>
+  <p>M. Tomamichel and <strong>M. Hayashi</strong>, “A Hierarchy of Information Quantities for Finite Block Length Analysis of Quantum Tasks,” <em>IEEE Transactions on Information Theory</em>, Vol. 59, No. 11, 7693 – 7710 (2013).</p>
+</blockquote>
+
+<p>This paper established the foundation of finite-length theory of quantum system.</p>
+
 
 </div>
             </ul>
         
       
         
-      
-        
             <ul class="list-unstyled">
                 
 
-<h3> Analysis of Practical Quantum Key Distribution Systems </h3>
+<h3> Classical and Quantum Information Theoretic Security </h3>
 
 <div class="ml-3">
-<p>Quantum key distribution (QKD) is the theoretical proposal that is close to realisation in quantum information science. 
-While an ideal QKD system is secure, 
-the security of a realisable QKD system requires additional protocols and more careful discussion 
-because of the many kinds of imperfections, e.g., noise of the quantum channel and imperfection of photon source. 
-%Due to these imperfections, 
-We need to attach error correction and privacy amplification to the conventional QKD protocol. Further, imperfection in photon sources introduces additional channel parameters that should be estimated.</p>
+<p>Information theoretic security is a new emerging research area of information theory. This area contains two important applied topics, one is the security analysis of the quantum key distribution, and the other is the security analysis of physical layer security, which contains the information theoretic security of wireless communication. To realize the security, we usually apply a hash function. Hence, we do not have the difficulty caused by decoding, which is the main difference from the error correcting code. Dr. Hayashi firstly pointed out that the useful relation between the wire-tap channel and the channel resolvability. Then, he derived an exponential decreasing rate of leaked information in the wire-tap channel model. Usually, we employ an auxiliary random variable as a scramble parameter for the code of wire-tap channel. All existing studies assume its perfect uniformity nevertheless it is quite difficult to guarantee it. To guarantee the security even with non-uniform auxiliary random variable, he invented a new security formula for wire-tap channel code based on the Renyi entropy of the non-uniform auxiliary random variable. Then, I succeeded in evaluating the security with such an imperfect case. Also, I proposed a practical code construction by using a linear code. These results removed several obstacles for real application of wire-tap channel model.</p>
 
-<p>Based on my work on wire-tap channels 
-[IEEE TIT \textbf{52} 1562 (2006), \cite{Ha03b} of \textbf{C3}], %50
-% IEEE TIT \textbf{57} 3989 (2011)]. %29
-I developed a concrete and secure QKD protocol with small calculation time
-while existing researches offered no such concrete protocol
-[PRA \textbf{76} 012329 (2007)]. %57
-Many implemented QKD systems utilise this protocol. 
-The first essential point was to propose a protocol 
-for privacy amplification by modifying a Toeplitz matrix whose calculation time is linear in the block size $n$ 
-[PRA \textbf{76} 012329 (2007)]. 
-Second, I proposed a method to perfectly estimate the additional channel parameters
-whereas existing methods only estimated it partially 
-[NJP \textbf{9} 284 (2007) \&amp; \cite{Hp8} of \textbf{C2}]. %20
-As a result of this improvement, the key generation rate was extensively improved. 
-Third, I clarified the amount of leaked information and derived the sacrificed bit length required for an arbitrary desired security 
-level for the estimated channel parameters in 
-the finite-block-size setting 
-[PRA \textbf{74} 022307 (2006) %39
-\&amp; PRA \textbf{76} 012329 (2007)] by using the trade-off between accessible information and quantum disturbance 
-[PRL \textbf{100} 210504 (2008), \cite{BHH08} of \textbf{C3} ]. %23
-Finally, in cooperation with the above channel parameter estimation, I derived a calculation formula for the sacrificed bit length with the form applicable to the realised QKD system 
-[NJP \textbf{14} 093014 (2012), \cite{HT12} of \textbf{C2} \&amp; \cite{Hp8} of \textbf{C3}]. %3
-%in preparation]. 
-Using this formula, I addressed the trade-off between cost and accuracy for the estimation of leaked information 
-[PRA \textbf{79} 020303(R) (2009), \cite{Ha09-1} of \textbf{C2}]. %4
-This formula was chosen for use in the implemented QKD system by this project in Japan, 
-which will be demonstrated over an installed optical fibre
-because my analysis satisfies all practical and experimental requirements for the NICT project.</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “General non-asymptotic and asymptotic formulas in channel resolvability and identification capacity and its application to wire-tap channel,” <em>IEEE Transactions on Information Theory</em>, Vol. 52, No. 4, 1562-1575 (2006).</p>
+</blockquote>
 
-<p>According to Google Scholar, this research has been cited \textbf{\textit{225}}
- %50+29+57+20+39+23+3+4
- times since 2006.</p>
+<p>This paper pointed out the clear connection between the wire-tap channel coding and the channel resolvability. Using this connection, this paper derived an explicit exponent for leaked information by using Arimoto’s exponents. Also, combining the information spectrum approach, this paper revealed the capacity formula of general sequence of degraded wire-tap channels. Since this connection is a very powerful tool for ire-tap channel, many papers for wire-tap channel followed this idea to construct codes for wire-tap channel. Further, this paper proved the conjecture for resolvability capacities for general sequence of channel, which had been an open problem proposed by Han-Verdu in 1993 (13 years).</p>
 
-<p>\renewcommand{\refname}{}
-\vspace{-20 mm}
-\begin{thebibliography}{99}
-\bibitem[\textbf{References}]{r0}</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Exponential decreasing rate of leaked information in universal random privacy amplification,” <em>IEEE Transactions on Information Theory</em>, Vol. 57, No. 6, 3989–4001 (2011).</p>
+</blockquote>
 
-<p>\bibitem[PRA \textbf{76} 012329 (2007)]{r1} 
-\textbf{M. Hayashi},
-%\textbf{M. Hayashi}, 
-``Upper bounds of eavesdropper’s performances in finite-block-size coding with the decoy method,’’ 
-{\em Physical Review A}, Vol. 76, 012329 (2007).</p>
+<p>This paper addresses security analysis when hash functions are applied. It applies hash function to wiretap channel, and constructs a practical code with small encoding and decoding time in finite-length setting</p>
 
-<p>\bibitem[NJP \textbf{9} 284 (2007)]{r2}
-\textbf{M. Hayashi},
-%\textbf{M. Hayashi}, 
-``General theory for decoy-state quantum key distribution with an arbitrary number of intensities,’’ 
-{\em New Journal of Physics}, Vol. 9, 284 (2007).</p>
+<hr />
 
-<p>\bibitem[PRA \textbf{74} 022307 (2006)]{r3}
-\textbf{M. Hayashi},
-%\textbf{M. Hayashi}, 
-``Practical evaluation of security for quantum key distribution,’’ 
-{\em Physical Review A}, Vol. 74, 022307 (2006).</p>
+<p>I also discussed the secure key generation from random number partially leaked to the eavesdropper. In this model, he derived the tight exponential decreasing rate of leaked information under the application of a universal2 hash function. This bound also works for the finite-length bound for leaked information. To realize this protocol, it is enough to consider the calculation complexity of universal2 hash function. I also showed that universal2 hash function can be implemented by employing the Toeplitz matrix, whose multiplication has less calculation complexity. Therefore, his evaluation can be directly applied to the real physical layer security system. I also extended these result to the quantum setting by resolving the difficulties caused by the non-commutativity. Based on these results, I also established a security formula to guarantee the security of real quantum key distribution system that contains imperfectness in the photon source as well as in the optical communication channel.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Practical Evaluation of Security for Quantum Key Distribution,” <em>Physical Review A</em>, Vol.74, 022307 (2006).</p>
+</blockquote>
+
+<p>This paper discussed the second-order analysis for quantum key distribution with single-photon setting.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Upper bounds of eavesdropper’s performances in finite-length code with the decoy method,” <em>Physical Review A</em>, Vol.76, 012329 (2007); <em>Physical Review A</em>, Vol.79, 019901(E) (2009).</p>
+</blockquote>
+
+<p>This paper derives the relation between phase error probability and leaked information and provides a formula for leaked information with imperfect photon source in quantum key distribution in finite-length setting.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Large deviation analysis for quantum security via smoothing of Renyi entropy of order 2,” <em>IEEE Transactions on Information Theory</em>, Vol. 60, No. 10, 6702 – 6732 (2014).</p>
+</blockquote>
+
+<p>This paper discusses the secure-random number generation in the quantum setting.</p>
 
 </div>
             </ul>
         
       
         
+            <ul class="list-unstyled">
+                
+
+<h3> Quantum Network Coding </h3>
+
+<div class="ml-3">
+<p>In the multiparty quantum information processing, we need a quantum network. However, a quantum network has a bottleneck. To improve the performance of the quantum network, we need to improve the bottleneck. My paper below started the analysis of quantum network coding for the first time as Fig. 3. After this paper, many researchers started to study quantum network coding. I proposed several protocols to improve the bottleneck in the quantum network. For example, in one of my protocols, I proposed an efficient use of quantum teleportation. This protocol resolves the bottleneck in the quantum butterfly network.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong>, K. Iwama, H. Nishimura, R. Raymond, and S. Yamashita, “Quantum Network Coding,” <em>24th International Symposium on Theoretical Aspects of Computer Science (STACS 2007)</em>, Aachen, Germany; 22-24 February 2007.</p>
+</blockquote>
+
+<p>This paper is the first paper of quantum network coding.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Prior entanglement between senders enables perfect quantum network coding with modification,” <em>Physical Review A</em>, Vol.76, 040301(R) (2007).</p>
+</blockquote>
+
+<p>The proposed protocol in this paper has been experimentally implemented by Prof. Pan’s group in USTC.</p>
+
+<blockquote>
+  <p>S. Song and <strong>M. Hayashi</strong>, “Secure Quantum Network Code without Classical Communication,” <em>IEEE Transactions on Information Theory</em>, Volume: 66, Issue: 2, 1178 – 1192 (2020).</p>
+</blockquote>
+
+</div>
+            </ul>
+        
       
         
             <ul class="list-unstyled">
                 
 
-<h3> Quantum Universal Protocols with Group Symmetries </h3>
+<h3> Classical and Quantum Statistics </h3>
 
 <div class="ml-3">
-<p>Quantum information has several information protocols, e.g., quantum source coding, quantum channel coding, and perfect entangled state generation from partial entangled states. 
-Existing protocols depend on the parameters that describe the quantum information source and the quantum channel. 
-However, it is quite difficult to identify these parameters in a quantum system.
-Even if it is possible, the identification of the parameters may cause information loss due to the state reduction by measurement. 
-Hence, protocols are required that universally work independently of these parameters. 
-Using the method of types, 
-Csiszar and K”{o}rner [\emph{Information Theory: Coding Theorems for Discrete Memoryless Systems}, Akad’emiai Kiad’o (1981)]
-proposed universal protocols for classical source coding and classical channel coding. 
-By contrast, in quantum systems, quantum universal protocols are required to have basis independence.
-Hence, we cannot directly apply the original type method to quantum systems because 
-the original type method can work only with an specific basis.
-%In quantum systems, the universal protocols are required to works independently of the coordinate.
-%However, to apply the original type method to quantum systems directly, we have to choose a basis.</p>
+<p>For the classical statistics, I studied the estimation of classical Markov chains. In this study, I established information geometrical method for a Markovian chain. Based on this method, I proposed a very efficient method to estimate Markovian chains from the obtained data. Furthermore, I extended this method to the estimation of a hidden Markovian process, which has many applications in various areas, e.g., Bioinformatics, Econometrics, and Population genetics. This work has been published in the Annual of Statistics in 2016 and  is considered as a representative work of information geometrical method in Markov chain.  It was cited as a typical work of information geometry in Efron’s paper <em>Curvature and Inference for Maximum Likelihood Estimates</em> and Amari’s book <em>Information geometry and its applications</em>. (Efron and Amari are the founders of information geometry.)</p>
 
-<p>%To resolve this problem, I remembered that
-%the group representation theory enables us to treat physical properties independent of the coordinate.
-I showed that the group representation theory can greatly simplify 
-quantum state estimation with the $n$-copy case
-by removing the basis dependence
-[JPA \textbf{31} 4633 (1998)]. %27
-%\&amp; JPA \textbf{33} 7793 (2000)]. %9
-%Physics Reports, \textbf{448} 1 %107 
-%Proc. QCMC 2, 99 (2002) %7
-%JMP 49 102101 (2008) %33
-%JPA 35 7689 (2002) %30 <br />
-I then found a quite unexpected and remarkable similarity between the Schur duality in the group representation theory and the method of types
-%[JPA \textbf{34} 3413 (2001) %19 \&amp; 
-[JPA \textbf{35} 10759 (2002)]. %38
-Based on this discovery, I invented quantum universal protocols for all of the above quantum coding problems 
-%[PRA \textbf{66} 022311 (2002), %41
-%PRA \textbf{66} 032321 (2002), %15
-%QIC \textbf{2} 519 (2002), %16
-%PRA \textbf{75} 062338 (2007), %16
-[CMP \textbf{289} 1087 (2009), \cite{Ha09-4} of \textbf{C2} \&amp; %9
-CMP \textbf{293} 171 (2010), \cite{Ha09-7} of \textbf{C2}]. %5
-Thanks to these protocols, we can now choose our protocol without knowledge of the parameters of 
-quantum information sources or channels. 
-This property enables us to avoid additional measurements to identify the quantum system. 
-In particular, using irreducible representation theory, I realised basis independence for the above protocols. 
-I also guaranteed their performance by the sophisticated use of matrix inequalities.</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong> and S. Watanabe, “ Information Geometry Approach to Parameter Estimation in Markov Chains,” <em>Annals of Statistics</em>, Volume 44, Number 4, 1495 – 1535 (2016).</p>
+</blockquote>
 
-<p>I subsequently applied these techniques 
-to the problem of distinguishing multi-partite entangled states [PRL \textbf{96} 040501 (2006), \cite{HMMOV03} of \textbf{C3}]. %102
-%PRA \textbf{77} 012104 (2008) %55 
-%JMP \textbf{50} 122104 (2009) %25
-%NJP \textbf{12} 083002 (2010)]. %13
-Since multi-partite entanglement is related to multi-user communication, in particular, to quantum networks 
-[PRA \textbf{76} 040301(R) (2007)], % 17
-%LNCS \textbf{4393} 610 (2007)], %26
-these results are helpful for this project.</p>
+<p>This paper discusses estimation of Markovian process by using information geometry.</p>
 
-<p>According to Google Scholar, this research has been cited \textbf{\textit{610}}<br />
-%27+9+107+7+33+30+19+38+41+15+16+16+9+5+102+55+25+13+17+26
-times since 1998.</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong>, “Local equivalence problem in hidden Markov model,” <em>Information Geometry</em>, vol 2, 1 – 42 (2019).</p>
+</blockquote>
 
-<p>\renewcommand{\refname}{}
-\vspace{-20 mm}
-\begin{thebibliography}{99}
-\bibitem[\textbf{References}]{s0}</p>
+<p>This paper discusses the information-geometry structure of hidden Markov process.</p>
 
-<p>\bibitem[JPA \textbf{31} 4633 (1998)]{s1} 
-\textbf{M. Hayashi},
-%\textbf{M. Hayashi}, 
-``Asymptotic estimation theory for a finite dimensional pure state model,’’ 
-{\em Journal of Physics A: Mathematical and General}, Vol. 31, No. 20, 4633-4655 (1998).</p>
+<hr />
 
-<p>\bibitem[JPA \textbf{35} 10759 (2002)]{s2}
-\textbf{M. Hayashi},
-%\textbf{M. Hayashi}, 
-``Optimal sequence of quantum measurements in the sense of Stein’s lemma in quantum hypothesis testing,’’ 
-{\em Journal of Physics A: Mathematical and General}, Vol. 35, No. 50, 10759-10773 (2002).</p>
+<p>For the quantum statistics, I discussed the estimation of a quantum system and the estimation of a quantum state. Usually, a quantum state is parameterized by multiple parameters. The best estimates of the respective parameters require the measurements of the respective physical quantities. However, they are non-commutative. Hence, we need to address simultaneous measurements of non-commutative physical quantities. Since their perfect simultaneous measurement is impossible, we need to optimize their approximate simultaneous measurement. In the following paper, I derived this optimization in a general way when the size of prepared quantum data is sufficiently large. This result gives the basis of the statistics of a quantum system from the side of the information science.</p>
 
-<p>\bibitem[PRA \textbf{76} 040301(R) (2007)]{s3}
-\textbf{M. Hayashi},
-%\textbf{M. Hayashi}, 
-``Prior entanglement between senders enables perfect quantum network coding with modification,’’ 
-{\em Physical Review A}, Vol. 76, 040301(R) (2007).</p>
+<blockquote>
+  <p><strong>M. Hayashi</strong> and K. Matsumoto, “Asymptotic performance of optimal state estimation in qubit system,” <em>Journal of Mathematical Physics</em>, Vol. 49, 102101 (2008).</p>
+</blockquote>
 
-<p>\end{thebibliography}</p>
+<p>This paper addresses the estimation of qubit system.</p>
+
+<blockquote>
+  <p>Y. Yang, G. Chiribella, and <strong>M. Hayashi</strong>, “Attaining the Ultimate Precision Limit in Quantum State Estimation,” <em>Communications in Mathematical Physics,</em> vol. 368(1), 223 – 293 (2019).</p>
+</blockquote>
+
+<p>This paper formalizes quantum state estimation with nuisance parameters.</p>
+
+<blockquote>
+  <p>J. Suzuki, Y. Yang, and <strong>M. Hayashi</strong>, “Quantum state estimation with nuisance parameters,” <em>Journal of Physics A: Mathematical and Theoretical</em>, (In Press).</p>
+</blockquote>
+
+<p>This is a systematic review for quantum state estimation.</p>
+
+</div>
+            </ul>
+        
+      
+        
+            <ul class="list-unstyled">
+                
+
+<h3> Quantum Computer Verification </h3>
+
+<div class="ml-3">
+<p>I am interested in the quantum computer verification problem. When the quantum devices are affected by noise, the computation outcome of quantum computer is not correct. Some of problems to be solved by the quantum computer cannot be checked by a classical computer. In this case, we need to verify the computation outcome. In [Phys. Rev. Lett <strong>115</strong>, 220502 (2015)], I proposed a method to guarantee the computation outcome of a quantum computer. After this paper, many papers employed the method of this paper to verify quantum computers. Then, I extended my method so that it verifies the computation outcome even in the presence of noises. This method can be applied to an implementation of quantum computer.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong>, T. Morimae, “Verifiable measurement-only blind quantum computing with stabilizer testing,” <em>Phys. Rev. Lett.,</em> vol. 115, 220502 (2015).</p>
+</blockquote>
+
+<p>This paper initialized the verification of measurement-based quantum computer.</p>
+
+<blockquote>
+  <p>K. Fujii and <strong>M. Hayashi</strong>, “Verifiable fault tolerance in measurement-based quantum computation,” <em>Physical Review A, Rapid Communication</em>, Vol. 96, 030301(R) (2017).</p>
+</blockquote>
+
+<p>This paper discussed the verification of fault tolerant measurement-based quantum computer. This method works even with the noise existence.</p>
+
+<blockquote>
+  <p><strong>M. Hayashi</strong> and M. Hajdušek, “Self-guaranteed measurement-based blind quantum computation,” <em>Physical Review A</em>, Vol. 97, 052308 (2018).</p>
+</blockquote>
+
+<p>This paper discussed the self-testing of measurement-based quantum computer even with untrusted measurement devices.</p>
 
 </div>
             </ul>
@@ -375,31 +334,9 @@ times since 1998.</p>
         
       
         
-            <ul class="list-unstyled">
-                
-
-<h3> Logo Project </h3>
-
-<div class="ml-3">
-<p>Project information.</p>
-
-</div>
-            </ul>
-        
       
         
       
-        
-            <ul class="list-unstyled">
-                
-
-<h3> Short Inactive Project </h3>
-
-<div class="ml-3">
-
-
-</div>
-            </ul>
         
       
         

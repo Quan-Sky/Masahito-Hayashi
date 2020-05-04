@@ -6,7 +6,7 @@ exclude: [README.md, Makefile, CNAME]
 
 ### Conversions
 markdown: kramdown
-highlighter: pygments # colorize code snippets
+highlighter: rouge # colorize code snippets
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false

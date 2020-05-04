@@ -53,7 +53,7 @@ phd-2:
     role: phd
 
 phd-3:
-    display_name: "Daiki Suruga"
+    display_name: "Hayato Arai"
     role: phd
 
 ######################################################################################
@@ -61,7 +61,7 @@ phd-3:
 ######################################################################################
 
 master-1:
-    display_name: "Hayato Arai"
+    display_name: "Daiki Suruga"
     role: master
 
 master-2:
@@ -94,6 +94,26 @@ visitor-3:
 ######################################################################################
 # Collaborators
 ######################################################################################
+collab-b:
+    display_name: "Ning Cai"
+    role: collaborator
+    webpage: "http://sist.shanghaitech.edu.cn/sist_en/2018/0820/c3846a31784/page.htm"
+    bio: "ShanghaiTech University"
+    image: "http://sist.shanghaitech.edu.cn/_upload/article/images/dc/21/01a0cfaf4e3289fa52beded5d02f/21a481d1-5050-45f0-a2f6-c22bbe29531c.jpg"
+
+collab-h:
+    display_name: "Giulio Chiribella"
+    role: collaborator
+    bio: "Department of Computer Science, The University of Hong Kong"
+    webpage: "https://qift.weebly.com/giulio-chiribella.html"
+    image: "https://qift.weebly.com/uploads/7/4/5/1/74515901/giulio-2.jpg"
+
+collab-e:
+    display_name: "François Le Gall"
+    role: collaborator
+    bio: "Nagoya University"
+    webpage: "http://francoislegall.com/"
+    image: "http://francoislegall.com/legall-photo.jpg?height=230&width=175" 
 
 collab-1:
     display_name: "Marco Tomamichel"
@@ -102,22 +122,34 @@ collab-1:
     image: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=t11U6_sAAAAJ&citpid=11"
     bio: "National University of Singapore"
 
-collab-b:
-    display_name: "Ning Cai"
-    role: collaborator
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    bio: "ShanghaiTech University"
-    image: "http://sist.shanghaitech.edu.cn/_upload/article/images/dc/21/01a0cfaf4e3289fa52beded5d02f/21a481d1-5050-45f0-a2f6-c22bbe29531c.jpg"
-
 collab-c:
-    display_name: "Mario Berta"
+    display_name: "Yuxiang Yang"
     role: collaborator
-    bio: "Imperial College London"
-    webpage: "https://marioberta.info/"
-    image: "https://marioberta.info/wp-content/uploads/2016/06/cropped-berta-e1466057834957.jpg"
+    bio: "Institute for Theoretical Physics, ETH Zurich"
+    image: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=jpFFDKcAAAAJ&citpid=2"
+    webpage: "https://qit.ethz.ch/people/person-detail.MjM2NzY1.TGlzdC8yMDQwLDgzMTQzOTE4MA==.html"
 
 collab-d:
     display_name: "Kun Fang"
     role: collaborator
     bio: "Postdoc at IQC, Waterloo"
     webpage: "http://kunfang.info/"
+
+collab-f:
+    display_name: "Zi-Wen Liu"
+    role: collaborator
+    bio: "Perimeter Institute for Theoretical Physics"
+    image: /img/people/Zi-Wen-Liu.jpg
+    webpage: "https://www.perimeterinstitute.ca/people/zi-wen-liu"
+
+collab-g:
+    display_name: "Ryuji Takagi"
+    role: collaborator
+    bio: "Physics graduate student at Massachusetts Institute of Technology"
+    webpage: "https://scholar.google.com/citations?user=UAe-79QAAAAJ&hl=en&oi=ao"
+
+collab-j:
+    display_name: "Yu Yang"
+    role: collaborator
+    bio: "Chongqing Technology and Business University"
+    webpage: "https://www.researchgate.net/scientific-contributions/2107622473_Yu_Yang"
