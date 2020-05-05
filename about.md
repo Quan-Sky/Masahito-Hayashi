@@ -17,29 +17,13 @@ inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf).
 
 ### Short Biography
 
-Masahito Hayashi received the B.S. degree from the Faculty of Sciences, Kyoto University, Japan, in 1994, and the M.S.
-and Ph.D. degrees in mathematics from Kyoto University, Japan, in 1996 and 1999, respectively. He worked in Kyoto
-University as a Research Fellow of the Japan Society of the Promotion of Science (JSPS) from 1998 to 2000, and worked in
-the Laboratory for Mathematical Neuroscience, Brain Science Institute, RIKEN from 2000 to 2003, and worked in ERATO
-Quantum Computation and Information Project, Japan Science and Technology Agency (JST) as the Research Head from 
-2000 to 2006. He worked in the Graduate School of Information Sciences, Tohoku University as Associate Professor 
-from 2007 to 2012. In 2012, he joined the Graduate School of Mathematics, Nagoya University as Professor. 
-In 2020, he joined the Shenzhen Institute for Quantum Science and Engineering, Southern University of Science 
-and Technology as Chief Research Scientist. Also, he worked in Centre for Quantum Technologies, 
-National University of Singapore as Visiting Research
-Associate Professor from 2009 to 2012 and as Visiting Research Professor from 2012 to now. He also worked in Shenzhen
-Institute for Quantum Science and Engineering, Southern University of Science and Technology, China as a Visiting
-Professor from 2018 to 2020, and in Center for Quantum Computing, Peng Cheng Laboratory, China as a Research Scientist
-from 2019 to 2020.
+Masahito Hayashi received the B.S. degree from the Faculty of Sciences, Kyoto University, Japan, in 1994, and the M.S. and Ph.D. degrees in mathematics from Kyoto University, Japan, in 1996 and 1999, respectively. He worked in Kyoto University as a Research Fellow of the Japan Society of the Promotion of Science (JSPS) from 1998 to 2000, and worked in the Laboratory for Mathematical Neuroscience, Brain Science Institute, RIKEN from 2000 to 2003, and worked in ERATO Quantum Computation and Information Project, Japan Science and Technology Agency (JST) as the Research Head from 2000 to 2006. He worked in the Graduate School of Information Sciences, Tohoku University as Associate Professor from 2007 to 2012. In 2012, he joined the Graduate School of Mathematics, Nagoya University as Professor. In 2020, he joined the Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology as Chief Research Scientist. Also, he worked in Centre for Quantum Technologies, National University of Singapore as Visiting Research Associate Professor from 2009 to 2012 and as Visiting Research Professor from 2012 to now. He also worked in Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology, China as a Visiting Professor from 2018 to 2020, and in Center for Quantum Computing, Peng Cheng Laboratory, China as a Research Scientist from 2019 to 2020.
 
-In 2011, he received *Information Theory Society Paper Award (2011)* for ["Information-Spectrum Approach to Second-Order
-Coding Rate in Channel Coding"](https://ieeexplore.ieee.org/abstract/document/5290292/). In 2016, he received the Japan
-Academy Medal from the Japan Academy and the JSPS Prize from Japan Society for the Promotion of Science. In 2017, he was
-promoted to **IEEE Fellow**. 
+In 2011, he received *Information Theory Society Paper Award (2011)* for ["Information-Spectrum Approach to Second-Order Coding Rate in Channel Coding"](https://ieeexplore.ieee.org/abstract/document/5290292/). In 2016, he received the Japan Academy Medal from the Japan Academy and the JSPS Prize from Japan Society for the Promotion of Science. In 2017, he was promoted to **IEEE Fellow**. 
 
 ### Representative Works
 
-**M. Hayashi**, [*Quantum Information Theory: Mathematical Foundation*](https://www.springer.com/gp/book/9783662497234), *Graduate Texts in Physics*, Springer (2017). (First Edition: M. Hayashi, Quantum Information: An Introduction, Springer (2006)).
+> **M. Hayashi**, [*Quantum Information Theory: Mathematical Foundation*](https://www.springer.com/gp/book/9783662497234), *Graduate Texts in Physics*, Springer (2017). (First Edition: M. Hayashi, Quantum Information: An Introduction, Springer (2006)).
 
 Assuming only elementary knowledge, this monograph explains many advanced topics in quantum information, quantum channel coding, quantum data compression, and quantum entanglement, etc., including original achievements.
 
@@ -76,7 +60,7 @@ This paper proposed a quantum network code on quantum butterfly network. The pro
 
 This paper formalizes quantum state estimation with nuisance parameters. It clarifies the ultimate precision limit in quantum state estimation.
 
-> **M. Hayashi**, T. Morimae, "Verifiable measurement-only blind quantum computing with stabilizer testing," *Phys. Rev. Lett.,* vol. 115, 220502 (2015).
+> **M. Hayashi**, T. Morimae, "Verifiable measurement-only blind quantum computing with stabilizer testing," *Physical Review Letters,* vol. 115, 220502 (2015).
 
 This paper initialized the verification of measurement-based quantum computer.
 
