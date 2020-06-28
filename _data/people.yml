@@ -47,14 +47,24 @@ postdoc-1:
 phd-1:
     display_name: "Seunghoan Song"
     role: phd
-
+    image: /img/people/seunghoan-song.jpg
+    bio: "My research interests are the theoretic aspects of classical/quantum information theory 
+            and its applications to secure communication protocols"
+    webpage: "https://www.math.nagoya-u.ac.jp/~m17021a/index.html"
+    
 phd-2:
     display_name: "Yuuya Yoshida"
     role: phd
+    image: /img/people/yuuya-yoshida.jpg
+    bio: "Working on arithmetic combinatorics, general probabilistic theories (GPTs), and optimization. 
+            My interest is discrete structures in mathematics and theoretical aspects in quantum/classical information theory."
 
 phd-3:
     display_name: "Hayato Arai"
     role: phd
+    image: /img/people/hayato-arai.jpg
+    bio: "General probabilistic theories, operational foundation of quantum physics"
+    webpage: "https://www.math.nagoya-u.ac.jp/~m18003b/index.html"
 
 ######################################################################################
 # Master Students
@@ -63,6 +73,8 @@ phd-3:
 master-1:
     display_name: "Daiki Suruga"
     role: master
+    image: /img/people/daiki-suruga.jpg
+    bio: "General probabilistic theories, operational foundation of quantum physics"
 
 master-2:
     display_name: "Ziyu Liu"
