@@ -33,12 +33,12 @@ pi-1:
 # Postdocs
 ######################################################################################
 
-postdoc-1:
-    display_name: "Kun Wang"
-    role: postdoc
-    image: "http://siqse.sustc.edu.cn/Uploads/banner/20190925/5d8b1172efb46.png"
-    bio: "Quantum Shannon Theory"
-    webpage: "http://siqse.sustc.edu.cn/Index/staff_detail/mid/54/id/588"
+# postdoc-1:
+#     display_name: "Kun Wang"
+#     role: postdoc
+#     image: "http://siqse.sustc.edu.cn/Uploads/banner/20190925/5d8b1172efb46.png"
+#     bio: "Quantum Shannon Theory"
+#     webpage: "http://siqse.sustc.edu.cn/Index/staff_detail/mid/54/id/588"
 
 ######################################################################################
 # PHD Students
@@ -52,12 +52,12 @@ phd-1:
             and its applications to secure communication protocols"
     webpage: "https://www.math.nagoya-u.ac.jp/~m17021a/index.html"
     
-phd-2:
-    display_name: "Yuuya Yoshida"
-    role: phd
-    image: /img/people/yuuya-yoshida.jpg
-    bio: "Working on arithmetic combinatorics, general probabilistic theories (GPTs), and optimization. 
-            My interest is discrete structures in mathematics and theoretical aspects in quantum/classical information theory."
+# phd-2:
+#     display_name: "Yuuya Yoshida"
+#     role: phd
+#     image: /img/people/yuuya-yoshida.jpg
+#     bio: "Working on arithmetic combinatorics, general probabilistic theories (GPTs), and optimization. 
+#             My interest is discrete structures in mathematics and theoretical aspects in quantum/classical information theory."
 
 phd-3:
     display_name: "Hayato Arai"
@@ -70,15 +70,15 @@ phd-3:
 # Master Students
 ######################################################################################
 
-master-1:
-    display_name: "Daiki Suruga"
-    role: master
-    image: /img/people/daiki-suruga.jpg
-    bio: "General probabilistic theories, operational foundation of quantum physics"
+# master-1:
+#     display_name: "Daiki Suruga"
+#     role: master
+#     image: /img/people/daiki-suruga.jpg
+#     bio: "General probabilistic theories, operational foundation of quantum physics"
 
-master-2:
-    display_name: "Ziyu Liu"
-    role: master
+# master-2:
+#     display_name: "Ziyu Liu"
+#     role: master
 
 ######################################################################################
 # Visitors
@@ -102,6 +102,12 @@ visitor-3:
 ######################################################################################
 # Alumni
 ######################################################################################
+
+alumni-1:
+    display_name: "Kun Wang"
+    role: postdoc
+    bio: "Quantum Shannon Theory"
+    webpage: "https://kunwang.info/"
 
 ######################################################################################
 # Collaborators
