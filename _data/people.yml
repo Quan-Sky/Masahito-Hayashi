@@ -15,7 +15,7 @@ pi-1:
     display_name: "Masahito Hayashi"
     webpage: "/about.html"
     role: pi
-    image: "http://siqse.sustc.edu.cn/Uploads/banner/20200331/5e82fd7b20359.jpg"
+    image: /img/people/masahito-hayashi.jpg
     bio: "Chief Research Scientist in SISQE"
 
 ######################################################################################
@@ -32,13 +32,6 @@ pi-1:
 ######################################################################################
 # Postdocs
 ######################################################################################
-
-# postdoc-1:
-#     display_name: "Kun Wang"
-#     role: postdoc
-#     image: "http://siqse.sustc.edu.cn/Uploads/banner/20190925/5d8b1172efb46.png"
-#     bio: "Quantum Shannon Theory"
-#     webpage: "http://siqse.sustc.edu.cn/Index/staff_detail/mid/54/id/588"
 
 ######################################################################################
 # PHD Students
@@ -105,7 +98,7 @@ visitor-3:
 
 alumni-1:
     display_name: "Kun Wang"
-    role: postdoc
+    role: alumni
     bio: "Quantum Shannon Theory"
     webpage: "https://kunwang.info/"
 
