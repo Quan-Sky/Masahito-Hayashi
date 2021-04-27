@@ -76,18 +76,22 @@ phd-3:
 ######################################################################################
 # Visitors
 ######################################################################################
-
 visitor-1:
+    display_name: "Jiawei Wu"
+    role: visitor
+    bio: "10 Apr. 2021 - "
+
+visitor-2:
     display_name: "Ryuji Takaji"
     role: visitor
     bio: "3 Jan. 2020 - 14 Jan. 2020"
 
-visitor-2:
+visitor-3:
     display_name: "Farzin Salek Shishavan"
     role: visitor
     bio: "26 Dec. 2019 - 24 Jan. 2020"
 
-visitor-3:
+visitor-4:
     display_name: "Zahra Baghali Khanian"
     role: visitor
     bio: "26 Dec. 2019 - 24 Jan. 2020"
