@@ -121,7 +121,7 @@ collab-h:
     role: collaborator
     bio: "Department of Computer Science, The University of Hong Kong"
     webpage: "https://qift.weebly.com/giulio-chiribella.html"
-    image: "https://qift.weebly.com/uploads/7/4/5/1/74515901/giulio-2.jpg"
+    image: "/img/people/giulio.jpg"
 
 collab-e:
     display_name: "François Le Gall"
@@ -134,14 +134,14 @@ collab-1:
     display_name: "Marco Tomamichel"
     role: collaborator
     webpage: "http://marcotom.info/"
-    image: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=t11U6_sAAAAJ&citpid=11"
+    image: "/img/people/marcotom.jfif"
     bio: "National University of Singapore"
 
 collab-c:
     display_name: "Yuxiang Yang"
     role: collaborator
     bio: "Institute for Theoretical Physics, ETH Zurich"
-    image: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=jpFFDKcAAAAJ&citpid=2"
+    image: "/img/people/YangYuxiang.jpg"
     webpage: "https://qit.ethz.ch/people/person-detail.MjM2NzY1.TGlzdC8yMDQwLDgzMTQzOTE4MA==.html"
 
 collab-d:
@@ -168,10 +168,16 @@ collab-k:
     role: collaborator
     bio: "Department of Computer Science, The University of Hong Kong"
     webpage: "https://qift.weebly.com/ge-bai.html"
-    image: "https://qift.weebly.com/uploads/7/4/5/1/74515901/published/avatar.png?1563630714"
+    image: "/img/people/GeBai.png"
 
 collab-j:
     display_name: "Yu Yang"
     role: collaborator
     bio: "Chongqing Technology and Business University"
     webpage: "https://www.researchgate.net/scientific-contributions/2107622473_Yu_Yang"
+collab-w:
+    display_name: "Jiawei Wu"
+    role: collaborator
+    bio: "PhD at Department of Physics, Tsinghua University"
+    webpage: "https://scholar.google.com/citations?user=EYN2gNcAAAAJ"
+    image: "/img/people/wjw.jpg"
