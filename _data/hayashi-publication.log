@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.12)  24 JUL 2021 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.12)  8 OCT 2021 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -154,25 +154,25 @@ Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 322.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 328.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 322.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 328.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3] [4] [5] [6] [7] [8] [9]
-Overfull \hbox (42.33931pt too wide) in paragraph at lines 983--988
+Overfull \hbox (42.33931pt too wide) in paragraph at lines 989--994
 \OT1/ptm/m/n/12 2019. (Pro-ceed-ings of this con-fer-ence as-signed no page num-ber, but as-signed DOI: 10.1109/ITW44776.2019.8989210). 
  []
 
-
-Overfull \hbox (6.09717pt too wide) in paragraph at lines 1067--1072
+[10]
+Overfull \hbox (6.09717pt too wide) in paragraph at lines 1073--1078
 \OT1/ptm/m/n/12 Cheaters Based on Mes-sage Au-then-ti-ca-tion,'' \OT1/ptm/m/it/12 IEEE In-ter-na-tional Sym-po-sium on In-for-ma-tion The-ory (ISIT2018)\OT1/ptm/m/n/12 ,
  []
 
-[10] [11] [12] [13] [14] [15] [16] [17]
-Overfull \hbox (1.18852pt too wide) in paragraph at lines 1824--1830
+[11] [12] [13] [14] [15] [16] [17]
+Overfull \hbox (1.18852pt too wide) in paragraph at lines 1830--1836
 []\OT1/ptm/b/n/12 M. Hayashi\OT1/ptm/m/n/12 , ``Se-cure wire-less com-mu-ni-ca-tion and its ap-pli-ca-tion to satel-lite com-mu-ni-ca-tion,'' Japan-Singapore
  []
 
@@ -186,7 +186,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  68i,4n,74p,617b,169s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/web/masahitohayashi.github.io/_data/hayashi-publication.pdf (21 pages, 151210 bytes).
+Output written on d:/web/masahitohayashi.github.io/_data/hayashi-publication.pdf (21 pages, 151098 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
