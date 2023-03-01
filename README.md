@@ -1,5 +1,5 @@
 Masahito Hayashi's Research Group
-================================
+=================================
 
 This is Masahito Hayashi's Research Group Website.
 
@@ -17,7 +17,13 @@ Features
 Setup
 -----
 
-1. Install the dependencies. You will need [Python][https://www.python.org/], [Jekyll](https://jekyllrb.com/) (`gem install jekyll`), and [pandoc](https://pandoc.org/).
+1. Install the dependencies. 
+    1. [Python][https://www.python.org/]
+    2. [Jekyll](https://jekyllrb.com/docs/installation/):
+        1. Ruby
+        2. RubyGem
+        3. GCC and Make
+    3. [pandoc](https://pandoc.org/).
 2. [Fork](https://github.com/uwsampa/research-group-web/fork) the **Research Group Website repository** on GitHub.
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
