@@ -13,21 +13,21 @@
 
 pi-1:
     display_name: "Masahito Hayashi"
-    webpage: "/about.html"
     role: pi
-    image: /img/people/masahito-hayashi.jpg
+    image: ./img/people/masahito-hayashi.jpg
     bio: "Chief Research Scientist in SISQE"
+    webpage: "./about.html"
 
 ######################################################################################
-# PI
+# Researchers
 ######################################################################################
 
-# prof-1:
-#     display_name: "Masahito Hayashi"
-#     webpage: "/about.html"
-#     role: pi
-#     image: 
-#     bio: "Chief research scientist in SISQE"
+prof-1:
+    display_name: "Baichu Yu"
+    role: professor
+    image: ./img/people/baichu-yu.jpg
+    bio: "Research Assistant Professor in SISQE"
+    webpage: "https://scholar.google.com/citations?user=f9dcFdkAAAAJ&hl=en&oi=ao"
 
 ######################################################################################
 # Postdocs
@@ -40,7 +40,7 @@ pi-1:
 phd-1:
     display_name: "Seunghoan Song"
     role: phd
-    image: /img/people/seunghoan-song.jpg
+    image: ./img/people/seunghoan-song.jpg
     bio: "My research interests are the theoretic aspects of classical/quantum information theory 
             and its applications to secure communication protocols"
     webpage: "https://www.math.nagoya-u.ac.jp/~m17021a/index.html"
@@ -51,17 +51,11 @@ phd-1:
 #     image: /img/people/yuuya-yoshida.jpg
 #     bio: "Working on arithmetic combinatorics, general probabilistic theories (GPTs), and optimization. 
 #             My interest is discrete structures in mathematics and theoretical aspects in quantum/classical information theory."
-phd-w:
-    display_name: "Jiawei Wu"
-    role: phd
-    bio: "PhD at Department of Physics, Tsinghua University, quantum wiretap channel theory"
-    webpage: "https://scholar.google.com/citations?user=EYN2gNcAAAAJ"
-    image: "/img/people/wjw.jpg"
 
 phd-3:
     display_name: "Hayato Arai"
     role: phd
-    image: /img/people/hayato-arai.jpg
+    image: ./img/people/hayato-arai.jpg
     bio: "General probabilistic theories, operational foundation of quantum physics"
     webpage: "https://www.math.nagoya-u.ac.jp/~m18003b/index.html"
 
@@ -79,13 +73,21 @@ phd-3:
 #     display_name: "Ziyu Liu"
 #     role: master
 
+master-3:
+    display_name: "Jingtian Zhao"
+    role: master
+    image: ./img/people/jingtian-zhao.jpg
+    # bio: ""
+    webpage: "https://scholar.google.com/citations?user=uNVnimkAAAAJ&hl=en&oi=ao"
+
 ######################################################################################
 # Visitors
 ######################################################################################
+
 visitor-1:
     display_name: "Jiawei Wu"
     role: visitor
-    bio: "10 Apr. 2021 - "
+    bio: "10 Apr. 2021 - 06 Sep. 2021"
 
 visitor-2:
     display_name: "Ryuji Takaji"
@@ -115,6 +117,7 @@ alumni-1:
 ######################################################################################
 # Collaborators
 ######################################################################################
+
 collab-b:
     display_name: "Ning Cai"
     role: collaborator
@@ -127,40 +130,40 @@ collab-h:
     role: collaborator
     bio: "Department of Computer Science, The University of Hong Kong"
     webpage: "https://qift.weebly.com/giulio-chiribella.html"
-    image: "/img/people/giulio.jpg"
+    image: "./img/people/giulio.jpg"
 
 collab-e:
     display_name: "François Le Gall"
     role: collaborator
     bio: "Nagoya University"
     webpage: "http://francoislegall.com/"
-    image: "/img/people/legall-Nagoya-HR.jpg" 
+    image: "./img/people/legall-Nagoya-HR.jpg" 
 
 collab-1:
     display_name: "Marco Tomamichel"
     role: collaborator
     webpage: "http://marcotom.info/"
-    image: "/img/people/marcotom.jfif"
+    image: "./img/people/marcotom.jfif"
     bio: "National University of Singapore"
 
 collab-c:
     display_name: "Yuxiang Yang"
     role: collaborator
     bio: "Institute for Theoretical Physics, ETH Zurich"
-    image: "/img/people/YangYuxiang.jpg"
+    image: "./img/people/YangYuxiang.jpg"
     webpage: "https://qit.ethz.ch/people/person-detail.MjM2NzY1.TGlzdC8yMDQwLDgzMTQzOTE4MA==.html"
 
 collab-d:
     display_name: "Kun Fang"
     role: collaborator
-    bio: "Postdoc at IQC, Waterloo"
+    bio: "Institute for Quantum Computing at Baidu Research"
     webpage: "http://kunfang.info/"
 
 collab-f:
     display_name: "Zi-Wen Liu"
     role: collaborator
     bio: "Perimeter Institute for Theoretical Physics"
-    image: /img/people/Zi-Wen-Liu.jpg
+    image: ./img/people/Zi-Wen-Liu.jpg
     webpage: "https://www.perimeterinstitute.ca/people/zi-wen-liu"
 
 collab-g:
@@ -174,7 +177,7 @@ collab-k:
     role: collaborator
     bio: "Department of Computer Science, The University of Hong Kong"
     webpage: "https://qift.weebly.com/ge-bai.html"
-    image: "/img/people/GeBai.png"
+    image: "./img/people/GeBai.png"
 
 collab-j:
     display_name: "Yu Yang"

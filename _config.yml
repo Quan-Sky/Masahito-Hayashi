@@ -60,7 +60,7 @@ front_page_news: 8
 # Base pathname for links.
 base: ''
 
-# make pages for the _research folder
+# Make pages for the _research folder
 collections:
   researches:
     output: true
@@ -70,15 +70,14 @@ collections:
 # Navigation bar links.
 navigation:
   - title: HOME
-    link: /
+    link: ./index.html
   - title: RESEARCH
-    link: /research.html
+    link: ./research.html
   - title: MEMBERS
-    link: /members.html
+    link: ./members.html
   - title: PUBLICATIONS
-    link: /publications.html
+    link: ./publications.html
   - title: NEWS
-    link: /news.html
+    link: ./news.html
   - title: ABOUT ME
-    link: /about.html
-
+    link: ./about.html
