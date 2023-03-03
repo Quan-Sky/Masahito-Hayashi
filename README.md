@@ -6,36 +6,36 @@ This is Masahito Hayashi's Research Group Website.
 Features
 --------
 
-* Thanks to [Jekyll](https://jekyllrb.com/docs/installation/), content is just text files. So even faculty should be able to figure it out.
-* Publications list generated from Latex file using [pandoc](https://pandoc.org/).
+* Thanks to [Jekyll][jekyll], content is just text files. So even faculty should be able to figure it out.
+* Publications list generated from Latex file using [Pandoc][pandoc].
 * Personnel list. Organize your professors, students, staff, and alumni.
 * Combined news stream and blog posts.
 * Easily extensible navigation bar.
-* Responsive (mobile-ready) design based on [Bootstrap](http://getbootstrap.com/).
+* Responsive (mobile-ready) design based on [Bootstrap][bootstrap].
 
 Setup
 -----
 
 1. Install the dependencies. 
-    1. [Python](https://www.python.org/);
-    2. [Jekyll](https://jekyllrb.com/docs/installation/):
-        1. [Ruby](https://www.ruby-lang.org/en/downloads/) (check your Ruby version using `ruby -v`);
-        2. [RubyGem](https://rubygems.org/pages/download) (check your Gems version using `gem -v`);
-        3. [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/) (check versions using `gcc -v`, `g++ -v`, and `make -v`);
+    1. [Python][python];
+    2. [Jekyll][jekyll]:
+        1. [Ruby][ruby] (check your Ruby version using `ruby -v`);
+        2. [RubyGem][rubygem] (check your Gems version using `gem -v`);
+        3. [GCC][gcc] and [Make][make] (check versions using `gcc -v`, `g++ -v`, and `make -v`);
         (Hint: for Wins, you can download MinGW for this dependency).
-    3. [Pandoc](https://pandoc.org/installing.html) (check versions using `pandoc -v`).
-2. [Fork](https://github.com/uwsampa/research-group-web/fork) the **Research Group Website repository** on GitHub.
+    3. [Pandoc][pandoc] (check versions using `pandoc -v`).
+2. [Fork][fork] the **Research Group Website repository** on GitHub.
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Use `make` command to build the site, and then run `make serve` to view your site.
+6. Use `make` command to build the site, and then run `make serve` to view your site. (If you find errors, please try `jekyll clean`.)
 7. Keep adding content. See below for instructions for each of the various sections.
 8. Periodically pull from the upstream repository: `git pull upstream master`.
 
 Publication List
 ----------------
 
-The list of publications is in `data/hayashi-publication.tex`. Typing `make` will generate `_includes/publication-list.html`, which contains a pretty, sorted HTML-formatted list of papers. This task is done by [pandoc](https://pandoc.org/).
+The list of publications is in `data/hayashi-publication.tex`. Typing `make` will generate `_includes/publication-list.html`, which contains a pretty, sorted HTML-formatted list of papers. This task is done by [Pandoc][pandoc].
 
 
 News Items and Blog Posts
@@ -61,9 +61,6 @@ And concoct a page title for your post. The body of the post goes after the `---
 
 You can also customize the icon that is displayed on the news feed. By default it's `newspaper-o`. We use icons from the [FontAwesome][fa] icon set.
 
-[yfm]: http://jekyllrb.com/docs/frontmatter/
-[fa]: http://fontawesome.io/icons/
-
 Projects
 --------
 
@@ -83,9 +80,7 @@ To create a project, just create a markdown file in the `_projects` folder. Here
 Personnel
 ---------
 
-People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
-
-[YAML]: https://en.wikipedia.org/wiki/YAML
+People are listed in a [YAML][YAML] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
 
 
 Building
@@ -93,16 +88,30 @@ Building
 
 The requirements for building the site are:
 
-* [Jekyll][]: run `gem install jekyll`
+* [Jekyll][jekyll]: run `gem install jekyll`
 
-`make` compiles the bibliography and the website content to the `_site`
-directory. To preview the site, run `jekyll serve`` and head to
-http://0.0.0.0:5000.
+`make` compiles the bibliography and the website content to the `_site` directory.
+To preview the site, run `jekyll serve` and head to http://127.0.0.1:5000.
 
 Remark
 --------
 
-This website a [Jekyll][]-based website updated from a templated for [research groups](http://sampa.cs.washington.edu/). The Research Group project originated at the University of Washington.  You can see the machinery working live at [their site][sampa]. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
+This website a [Jekyll][jekyll]-based website updated from a templated for [research groups][sampa]. The Research Group project originated at the University of Washington.  You can see the machinery working live at [their site][sampa]. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
+<!--Compiler-->
+[python]: https://www.python.org/
+[ruby]: https://www.ruby-lang.org/en/downloads/
+[rubygem]: https://rubygems.org/pages/download
+[gcc]: https://gcc.gnu.org/install/
+[make]: https://www.gnu.org/software/make/
+<!--Dependencies-->
+[jekyll]: https://jekyllrb.com/docs/installation/
+[pandoc]: https://pandoc.org/
+<!--Others-->
+[YAML]: https://en.wikipedia.org/wiki/YAML
+[yfm]: http://jekyllrb.com/docs/frontmatter/
+[bootstrap]: http://getbootstrap.com/
+[fa]: http://fontawesome.io/icons/
+[fork]: https://github.com/uwsampa/research-group-web/fork
 [sampa]: http://sampa.cs.washington.edu/
 [license]: https://creativecommons.org/licenses/by-nc/4.0/
