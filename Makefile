@@ -11,8 +11,9 @@ _includes/publication-list.html: _data/hayashi-publication.tex
 
 build: _includes/publication-list.html
 	jekyll build
+	# jekyll --trace build
 
-# you can configure these at the shell, e.g.:
+# You can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
 SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000

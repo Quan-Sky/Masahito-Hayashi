@@ -19,17 +19,6 @@ pi-1:
     bio: "Chief Research Scientist in SISQE"
 
 ######################################################################################
-# PI
-######################################################################################
-
-# prof-1:
-#     display_name: "Masahito Hayashi"
-#     webpage: "/about.html"
-#     role: pi
-#     image: 
-#     bio: "Chief research scientist in SISQE"
-
-######################################################################################
 # Postdocs
 ######################################################################################
 
@@ -51,12 +40,13 @@ phd-1:
 #     image: /img/people/yuuya-yoshida.jpg
 #     bio: "Working on arithmetic combinatorics, general probabilistic theories (GPTs), and optimization. 
 #             My interest is discrete structures in mathematics and theoretical aspects in quantum/classical information theory."
-phd-w:
-    display_name: "Jiawei Wu"
-    role: phd
-    bio: "PhD at Department of Physics, Tsinghua University, quantum wiretap channel theory"
-    webpage: "https://scholar.google.com/citations?user=EYN2gNcAAAAJ"
-    image: "/img/people/wjw.jpg"
+
+# phd-w:
+#     display_name: "Jiawei Wu"
+#     role: phd
+#     bio: "PhD at Department of Physics, Tsinghua University, quantum wiretap channel theory"
+#     webpage: "https://scholar.google.com/citations?user=EYN2gNcAAAAJ"
+#     image: "/img/people/wjw.jpg"
 
 phd-3:
     display_name: "Hayato Arai"
@@ -79,13 +69,22 @@ phd-3:
 #     display_name: "Ziyu Liu"
 #     role: master
 
+master-3:
+    display_name: "Jingtian Zhao"
+    role: master
+    # TODO: supplement picture
+    image: /img/people/jingtian-zhao.jpg
+    bio: ""
+
 ######################################################################################
 # Visitors
 ######################################################################################
+
 visitor-1:
     display_name: "Jiawei Wu"
     role: visitor
-    bio: "10 Apr. 2021 - "
+    # TODO: supplement this date
+    bio: "10 Apr. 2021 - 06 Sep. 2021"
 
 visitor-2:
     display_name: "Ryuji Takaji"
@@ -115,6 +114,7 @@ alumni-1:
 ######################################################################################
 # Collaborators
 ######################################################################################
+
 collab-b:
     display_name: "Ning Cai"
     role: collaborator

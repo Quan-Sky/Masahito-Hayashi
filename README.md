@@ -3,11 +3,10 @@ Masahito Hayashi's Research Group
 
 This is Masahito Hayashi's Research Group Website.
 
-
 Features
 --------
 
-* Thanks to [Jekyll][], content is just text files. So even faculty should be able to figure it out.
+* Thanks to [Jekyll](https://jekyllrb.com/docs/installation/), content is just text files. So even faculty should be able to figure it out.
 * Publications list generated from Latex file using [pandoc](https://pandoc.org/).
 * Personnel list. Organize your professors, students, staff, and alumni.
 * Combined news stream and blog posts.
@@ -18,17 +17,18 @@ Setup
 -----
 
 1. Install the dependencies. 
-    1. [Python][https://www.python.org/]
+    1. [Python](https://www.python.org/);
     2. [Jekyll](https://jekyllrb.com/docs/installation/):
-        1. Ruby
-        2. RubyGem
-        3. GCC and Make
-    3. [pandoc](https://pandoc.org/).
+        1. [Ruby](https://www.ruby-lang.org/en/downloads/) (check your Ruby version using `ruby -v`);
+        2. [RubyGem](https://rubygems.org/pages/download) (check your Gems version using `gem -v`);
+        3. [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/) (check versions using `gcc -v`, `g++ -v`, and `make -v`);
+        (Hint: for Wins, you can download MinGW for this dependency).
+    3. [Pandoc](https://pandoc.org/installing.html) (check versions using `pandoc -v`).
 2. [Fork](https://github.com/uwsampa/research-group-web/fork) the **Research Group Website repository** on GitHub.
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Type `make` to build the site and then run `make serve` to view your site.
+6. Use `make` command to build the site, and then run `make serve` to view your site.
 7. Keep adding content. See below for instructions for each of the various sections.
 8. Periodically pull from the upstream repository: `git pull upstream master`.
 
