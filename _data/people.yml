@@ -11,7 +11,7 @@
 # PI
 ######################################################################################
 
-pi-1:
+pi-hayashi:
     display_name: "Masahito Hayashi"
     role: pi
     image: ./img/people/masahito-hayashi.jpg
@@ -22,7 +22,7 @@ pi-1:
 # Researchers
 ######################################################################################
 
-prof-1:
+prof-yu:
     display_name: "Baichu Yu"
     role: professor
     image: ./img/people/baichu-yu.jpg
@@ -32,19 +32,18 @@ prof-1:
 ######################################################################################
 # Postdocs
 ######################################################################################
+postdoc-arai:
+    display_name: "Hayato Arai"
+    role: postdoc
+    image: ./img/people/hayato-arai.jpg
+    bio: "General probabilistic theories, operational foundation of quantum physics"
+    webpage: "https://www.math.nagoya-u.ac.jp/~m18003b/index.html"
+
 
 ######################################################################################
-# PHD Students
+# PH.D. Students
 ######################################################################################
 
-phd-1:
-    display_name: "Seunghoan Song"
-    role: phd
-    image: ./img/people/seunghoan-song.jpg
-    bio: "My research interests are the theoretic aspects of classical/quantum information theory 
-            and its applications to secure communication protocols"
-    webpage: "https://www.math.nagoya-u.ac.jp/~m17021a/index.html"
-    
 # phd-2:
 #     display_name: "Yuuya Yoshida"
 #     role: phd
@@ -52,134 +51,97 @@ phd-1:
 #     bio: "Working on arithmetic combinatorics, general probabilistic theories (GPTs), and optimization. 
 #             My interest is discrete structures in mathematics and theoretical aspects in quantum/classical information theory."
 
-phd-3:
-    display_name: "Hayato Arai"
-    role: phd
-    image: ./img/people/hayato-arai.jpg
-    bio: "General probabilistic theories, operational foundation of quantum physics"
-    webpage: "https://www.math.nagoya-u.ac.jp/~m18003b/index.html"
-
 ######################################################################################
 # Master Students
 ######################################################################################
 
-# master-1:
-#     display_name: "Daiki Suruga"
-#     role: master
-#     image: /img/people/daiki-suruga.jpg
-#     bio: "General probabilistic theories, operational foundation of quantum physics"
-
-# master-2:
-#     display_name: "Ziyu Liu"
-#     role: master
-
-master-3:
+master-zhao:
     display_name: "Jingtian Zhao"
     role: master
     image: ./img/people/jingtian-zhao.jpg
     # bio: ""
     webpage: "https://scholar.google.com/citations?user=uNVnimkAAAAJ&hl=en&oi=ao"
 
-######################################################################################
-# Visitors
-######################################################################################
+# master-2:
+#     display_name: "Daiki Suruga"
+#     role: master
+#     image: /img/people/daiki-suruga.jpg
+#     bio: "General probabilistic theories, operational foundation of quantum physics"
 
-visitor-1:
-    display_name: "Jiawei Wu"
-    role: visitor
-    bio: "10 Apr. 2021 - 06 Sep. 2021"
-
-visitor-2:
-    display_name: "Ryuji Takaji"
-    role: visitor
-    bio: "3 Jan. 2020 - 14 Jan. 2020"
-
-visitor-3:
-    display_name: "Farzin Salek Shishavan"
-    role: visitor
-    bio: "26 Dec. 2019 - 24 Jan. 2020"
-
-visitor-4:
-    display_name: "Zahra Baghali Khanian"
-    role: visitor
-    bio: "26 Dec. 2019 - 24 Jan. 2020"
+# master-3:
+#     display_name: "Ziyu Liu"
+#     role: master
 
 ######################################################################################
-# Alumni
+# Undergraduate Students
 ######################################################################################
-
-alumni-1:
-    display_name: "Kun Wang"
-    role: alumni
-    bio: "Quantum Shannon Theory"
-    webpage: "https://kunwang.info/"
 
 ######################################################################################
 # Collaborators
 ######################################################################################
 
-collab-b:
+collab-nc:
     display_name: "Ning Cai"
     role: collaborator
     webpage: "http://sist.shanghaitech.edu.cn/sist_en/2018/0820/c3846a31784/page.htm"
     bio: "ShanghaiTech University"
     image: "http://sist.shanghaitech.edu.cn/_upload/article/images/dc/21/01a0cfaf4e3289fa52beded5d02f/21a481d1-5050-45f0-a2f6-c22bbe29531c.jpg"
 
-collab-h:
+collab-chiribella:
     display_name: "Giulio Chiribella"
     role: collaborator
     bio: "Department of Computer Science, The University of Hong Kong"
     webpage: "https://qift.weebly.com/giulio-chiribella.html"
     image: "./img/people/giulio.jpg"
 
-collab-e:
+collab-gall:
     display_name: "François Le Gall"
     role: collaborator
     bio: "Nagoya University"
     webpage: "http://francoislegall.com/"
     image: "./img/people/legall-Nagoya-HR.jpg" 
 
-collab-1:
+collab-tomamichel:
     display_name: "Marco Tomamichel"
     role: collaborator
     webpage: "http://marcotom.info/"
     image: "./img/people/marcotom.jfif"
     bio: "National University of Singapore"
 
-collab-c:
+collab-yxy:
     display_name: "Yuxiang Yang"
     role: collaborator
     bio: "Institute for Theoretical Physics, ETH Zurich"
     image: "./img/people/YangYuxiang.jpg"
     webpage: "https://qit.ethz.ch/people/person-detail.MjM2NzY1.TGlzdC8yMDQwLDgzMTQzOTE4MA==.html"
 
-collab-d:
+collab-kf:
     display_name: "Kun Fang"
     role: collaborator
     bio: "Institute for Quantum Computing at Baidu Research"
     webpage: "http://kunfang.info/"
 
-collab-f:
+collab-zwl:
     display_name: "Zi-Wen Liu"
     role: collaborator
     bio: "Perimeter Institute for Theoretical Physics"
     image: ./img/people/Zi-Wen-Liu.jpg
     webpage: "https://www.perimeterinstitute.ca/people/zi-wen-liu"
 
-collab-g:
+collab-takagi:
     display_name: "Ryuji Takagi"
     role: collaborator
     bio: "Physics graduate student at Massachusetts Institute of Technology"
     webpage: "https://scholar.google.com/citations?user=UAe-79QAAAAJ&hl=en&oi=ao"
 
-collab-k:
+collab-gb:
     display_name: "Ge Bai"
     role: collaborator
     bio: "Department of Computer Science, The University of Hong Kong"
     webpage: "https://qift.weebly.com/ge-bai.html"
     image: "./img/people/GeBai.png"
 
-collab-j:
+collab-yy:
     display_name: "Yu Yang"
     role: collaborator
     bio: "Chongqing Technology and Business University"
@@ -190,3 +152,52 @@ collab-kw:
     role: collaborator
     bio: " Institute for Quantum Computing at Baidu Research"
     webpage: "https://kunwang.info/"
+
+######################################################################################
+# Visitors
+######################################################################################
+
+visitor-jww:
+    display_name: "Jiawei Wu"
+    role: visitor
+    bio: "10 Apr. 2021 - 06 Sep. 2021"
+    webpage: "https://scholar.google.com/citations?user=EYN2gNcAAAAJ"
+
+visitor-zwl:
+    display_name: "Zi-Wen Liu"
+    role: visitor
+    bio: ""
+    webpage: "https://www.perimeterinstitute.ca/people/zi-wen-liu"
+
+visitor-takaji:
+    display_name: "Ryuji Takaji"
+    role: visitor
+    bio: "3 Jan. 2020 - 14 Jan. 2020"
+    webpage: "https://scholar.google.com/citations?user=UAe-79QAAAAJ&hl=en&oi=ao"
+
+visitor-shishavan:
+    display_name: "Farzin Salek Shishavan"
+    role: visitor
+    bio: "26 Dec. 2019 - 24 Jan. 2020"
+
+visitor-khanian:
+    display_name: "Zahra Baghali Khanian"
+    role: visitor
+    bio: "26 Dec. 2019 - 24 Jan. 2020"
+
+######################################################################################
+# Alumni
+######################################################################################
+
+alumni-kw:
+    display_name: "Kun Wang"
+    role: alumni
+    bio: "Quantum Shannon Theory"
+    webpage: "https://kunwang.info/"
+
+alumni-song:
+    display_name: "Seunghoan Song"
+    role: alumni
+    bio: "Quantum Private Information Retrieval"
+    webpage: "https://www.math.nagoya-u.ac.jp/~m17021a/index.html"
+    

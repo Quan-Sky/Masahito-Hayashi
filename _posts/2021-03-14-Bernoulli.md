@@ -4,8 +4,8 @@ shortnews: true
 icon: newspaper-o
 image: /img/arXiv.gif
 image_style: "max-height: 60px;"
-image_link: "http://www.bernoulli-society.org/publications/bernoulli-journal/bernoulli-journal-papers"
+image_link: "https://doi.org/10.3150/21-BEJ1344"
 ---
 
-Our new paper **Information Geometry Approach to Parameter Estimation in Hidden Markov Model** (Masahito Hayashi) is accepted by [Bernoulli Journal](http://www.bernoulli-society.org/publications/bernoulli-journal/bernoulli-journal-papers).
+Our paper **Information Geometry Approach to Parameter Estimation in Hidden Markov Model** (Masahito Hayashi) has been accepted by [Bernoulli Journal](https://doi.org/10.3150/21-BEJ1344).
 
