@@ -62,6 +62,16 @@ master-zhao:
     # bio: ""
     webpage: "https://scholar.google.com/citations?user=uNVnimkAAAAJ&hl=en&oi=ao"
 
+master-yuki:
+    display_name: "Ito Yuki"
+    role: master
+    # bio: ""
+
+master-kanta:
+    display_name: "Sonoda Kanta"
+    role: master
+    # bio: ""
+
 # master-2:
 #     display_name: "Daiki Suruga"
 #     role: master
