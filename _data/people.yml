@@ -15,7 +15,7 @@ pi-hayashi:
     display_name: "Masahito Hayashi"
     role: pi
     image: ./img/people/masahito-hayashi.jpg
-    bio: "Chief Research Scientist in SISQE"
+    bio: "Professor in School of Data Science, The Chinese University of Kong Kong, Shenzhen <br /> Chief Research Scientist in Shenzhen International Quantum Academy"
     webpage: "./about.html"
 
 ######################################################################################
