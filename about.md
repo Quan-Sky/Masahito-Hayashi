@@ -9,7 +9,7 @@ Engineering](http://siqse.sustc.edu.cn/), [Southern University of Science and Te
 China. My research interests include classical and quantum information theory and classical and quantum statistical
 inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf). -->
 
-I am Professor in [School of Data Science](https://sds.cuhk.edu.cn/en), [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), and Chief Research Scientist in Shenzhen International Quantum Academy ([https://www.sziqa.ac.cn/](https://www.sziqa.ac.cn/), [https://siqse.sustech.edu.cn/](https://siqse.sustech.edu.cn/)). Also, I am an IEEE Fellow and an IMS Fellow. My research interests include classical and quantum information theory and classical and quantum statistical inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf).
+I am Professor in [School of Data Science](https://sds.cuhk.edu.cn/en), [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), and Chief Research Scientist in [Shenzhen International Quantum Academy](https://siqse.sustech.edu.cn/). Also, I am an IEEE Fellow and an IMS Fellow. My research interests include classical and quantum information theory and classical and quantum statistical inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf).
 
 <ul class="nav justify-content-center navbar-expand-lg navbar-light" style="background-color: #e9ecef;"> 
     <li class="nav-item"><a class="nav-link disabled" href="#short-biography">Short Biography</a></li>
