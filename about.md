@@ -4,10 +4,12 @@ title: About me
 notitle: true
 ---
 
-I am an IEEE Fellow and a Chief Research Scientist in the [Shenzhen Institute for Quantum Science and
+<!-- I am an IEEE Fellow and a Chief Research Scientist in the [Shenzhen Institute for Quantum Science and
 Engineering](http://siqse.sustc.edu.cn/), [Southern University of Science and Technology](https://www.sustech.edu.cn/),
 China. My research interests include classical and quantum information theory and classical and quantum statistical
-inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf).
+inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf). -->
+
+I am Professor in [School of Data Science](https://sds.cuhk.edu.cn/en), [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), and Chief Research Scientist in [Shenzhen International Quantum Academy](https://siqse.sustech.edu.cn/). Also, I am an IEEE Fellow and an IMS Fellow. My research interests include classical and quantum information theory and classical and quantum statistical inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf).
 
 <ul class="nav justify-content-center navbar-expand-lg navbar-light" style="background-color: #e9ecef;"> 
     <li class="nav-item"><a class="nav-link disabled" href="#short-biography">Short Biography</a></li>
@@ -17,9 +19,13 @@ inference. My full CV is available [here](/downloads/masahito-hayashi-cv.pdf).
 
 ### Short Biography
 
-Masahito Hayashi received the B.S. degree from the Faculty of Sciences, Kyoto University, Japan, in 1994, and the M.S. and Ph.D. degrees in mathematics from Kyoto University, Japan, in 1996 and 1999, respectively. He worked in Kyoto University as a Research Fellow of the Japan Society of the Promotion of Science (JSPS) from 1998 to 2000, and worked in the Laboratory for Mathematical Neuroscience, Brain Science Institute, RIKEN from 2000 to 2003, and worked in ERATO Quantum Computation and Information Project, Japan Science and Technology Agency (JST) as the Research Head from 2000 to 2006. He worked in the Graduate School of Information Sciences, Tohoku University as Associate Professor from 2007 to 2012. In 2012, he joined the Graduate School of Mathematics, Nagoya University as Professor. In 2020, he joined the Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology as Chief Research Scientist. Also, he worked in Centre for Quantum Technologies, National University of Singapore as Visiting Research Associate Professor from 2009 to 2012 and as Visiting Research Professor from 2012 to now. He also worked in Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology, China as a Visiting Professor from 2018 to 2020, and in Center for Quantum Computing, Peng Cheng Laboratory, China as a Research Scientist from 2019 to 2020.
+<!-- Masahito Hayashi received the B.S. degree from the Faculty of Sciences, Kyoto University, Japan, in 1994, and the M.S. and Ph.D. degrees in mathematics from Kyoto University, Japan, in 1996 and 1999, respectively. He worked in Kyoto University as a Research Fellow of the Japan Society of the Promotion of Science (JSPS) from 1998 to 2000, and worked in the Laboratory for Mathematical Neuroscience, Brain Science Institute, RIKEN from 2000 to 2003, and worked in ERATO Quantum Computation and Information Project, Japan Science and Technology Agency (JST) as the Research Head from 2000 to 2006. He worked in the Graduate School of Information Sciences, Tohoku University as Associate Professor from 2007 to 2012. In 2012, he joined the Graduate School of Mathematics, Nagoya University as Professor. In 2020, he joined the Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology as Chief Research Scientist. Also, he worked in Centre for Quantum Technologies, National University of Singapore as Visiting Research Associate Professor from 2009 to 2012 and as Visiting Research Professor from 2012 to now. He also worked in Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology, China as a Visiting Professor from 2018 to 2020, and in Center for Quantum Computing, Peng Cheng Laboratory, China as a Research Scientist from 2019 to 2020. -->
 
-In 2011, he received *Information Theory Society Paper Award (2011)* for ["Information-Spectrum Approach to Second-Order Coding Rate in Channel Coding"](https://ieeexplore.ieee.org/abstract/document/5290292/). In 2016, he received the Japan Academy Medal from the Japan Academy and the JSPS Prize from Japan Society for the Promotion of Science. In 2017, he was promoted to **IEEE Fellow**. 
+Masahito Hayashi received the B.S. degree from the Faculty of Sciences, Kyoto University, Japan, in 1994, and the M.S. and Ph.D. degrees in mathematics from Kyoto University, Japan, in 1996 and 1999, respectively. He worked in Kyoto University as a Research Fellow of the Japan Society of the Promotion of Science (JSPS) from 1998 to 2000, and worked in the Laboratory for Mathematical Neuroscience, Brain Science Institute, RIKEN from 2000 to 2003, and worked in ERATO Quantum Computation and Information Project, Japan Science and Technology Agency (JST) as the Research Head from 2000 to 2006. He worked in the Graduate School of Information Sciences, Tohoku University as Associate Professor from 2007 to 2012. In 2012, he joined the Graduate School of Mathematics, Nagoya University as Professor. He worked in the Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology as Chief Research Scientist from 2020 to 2023. In 2023, he joined School of Data Science, The Chinese University of Kong Kong, Shenzhen as Professor, and joined Shenzhen International Quantum Academy as Chief Research Scientist. 
+
+Also, he worked in Centre for Quantum Technologies, National University of Singapore as Visiting Research Associate Professor from 2009 to 2012 and as Visiting Research Professor from 2012 to now. He also worked in Shenzhen Institute for Quantum Science and Engineering, Southern University of Science and Technology, China as a Visiting Professor from 2018 to 2020, and in Center for Quantum Computing, Peng Cheng Laboratory, China as a Research Scientist from 2019 to 2020.
+
+In 2011, he received *Information Theory Society Paper Award (2011)* for ["Information-Spectrum Approach to Second-Order Coding Rate in Channel Coding"](https://ieeexplore.ieee.org/abstract/document/5290292/). In 2016, he received the Japan Academy Medal from the Japan Academy and the JSPS Prize from Japan Society for the Promotion of Science. In 2017, he was promoted to **IEEE Fellow**. In 2022, he was promoted to **IMS Fellow**.
 
 ### Representative Works
 
@@ -66,7 +72,4 @@ This paper initialized the verification of measurement-based quantum computer.
 
 ### Contact
 
-Shenzhen Institute for Quantum Science and Engineering<br>
-Southern University of Science and Technology<br>
-1088 Xueyuan Avenue, Shenzhen 518055, P.R. China<br>
-Email: hayashi-at-sustech.edu.cn<br>
+Email: hmasahito-a-cuhk.edu.cn,  hayashi-at-iqasz.cn<br>
